@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    color: #575757;
+    font-family: Lato;
+}
+
+#encabezado{
+  background: url(images/fondo_header.jpg) bottom fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+
+  }
+
+nav{
+  background-color: #575757;
+  min-height: 50px;
+  color: #FFFFFF;
+}
+
+#actualPage{
+  color: #FFB801;
+}
+
+#logo{
+  height: 10%;
+  width: 10%;
+}
+
+main{
+  text-align: center;
+}
+
+h1{
+  color: #00A1A1;
+  font-family: Chau Philomene One;
+}
+
+h2{
+  font-family: Lato;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+button{
+    background-color: #00A1A1;
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: Chau Philomene One;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: #48B9B9;
+}
+
+.buttonDisabled{
+  background-color: #7F7F7F
+}
+
+#payment{
+  display:none;
+}
+
+.socialMediaImg{
+  height: 3%;
+  width: 3%;
+  padding: 1%;
+}
+
+footer{
+  background-color: #575757;
+  margin-top: 2%;
+  color: #FFFFFF;
+}

@@ -1,14 +1,83 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Music Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div id="encabezado">
+      <h1>LOS MEJORES<br> INSTRUMENTOS MUSICALES <br>LOS ENCUENTRAS AQUI</h1>
+    </div>
+    <nav id="barNav">
+      <ul>
+        <li>INICIO</li>
+        <li>QUIÉNES SOMOS</a></li>
+        <li><img id="logo" src="images/musicShopLogo.png" alt="Music Shop Logo"></li>
+        <li id="actualPage">TIENDA</li>
+        <li>CONTACTO</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="instruments">
+      <h1>INSTRUMENTOS MUSICALES</h1>
+      <div id="items" class="flex-container">
+        <div>
+          <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
+          <h1>UKELELE SOPRANO</h1>
+          <p>Kalani</p>
+          <h2>$125.000</h2>
+          <button class="button" type="button" onclick="showPayment">COMPRAR</button>
+        </div>
+        <div>
+          <img src="images/instrumentSaxo.png" alt="Saxofon">
+          <h1>SAXOFON ALTO</h1>
+          <p>Conductor</p>
+          <h2>$1'375.000</h2>
+          <button class="buttonDisabled" type="button">AGOTADO</button>
+        </div>
+        <div>
+          <img src="images/instrumentPiano.png" alt="Ukelele Kalani">
+          <h1>PIANO DE COLA</h1>
+          <p>Harrodser</p>
+          <h2>$41'000.000</h2>
+          <button class="buttonDisabled" type="button">AGOTADO</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="payment">
+      <div>
+        <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
+        <h1>UKELELE SOPRANO</h1>
+        <p>Kalani</p>
+        <h2>$125.000</h2>
+      </div>
+      <div>
+        <input type="number" name="numeroTarjeta" id="tarjeta" required>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="flex-container">
+        <img class="socialMediaImg" src="images/socialMail.png" alt="E-mail">
+        <p>musicshop@gmail.com</p>
+        <img class="socialMediaImg" src="images/socialPhone.png" alt="Phone">
+        <p>(+57) 316 828 2943</p>
+        <img class="socialMediaImg" src="images/socialFacebook.png" alt="Facebook">
+        <img class="socialMediaImg" src="images/socialInstagram.png" alt="Instagram">
+        <img class="socialMediaImg" src="images/socialWhatsapp.png" alt="Whatsapp">
+        <img class="socialMediaImg" src="images/socialTwitter.png" alt="Twitter">
+      </div>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+</body>
 </html>
