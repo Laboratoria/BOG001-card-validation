@@ -8,30 +8,30 @@
   </head>
   <body>
     <header>
-      <div id="encabezado">
-        <h1>LOS MEJORES<br> INSTRUMENTOS MUSICALES <br>LOS ENCUENTRAS AQUI</h1>
+      <div id="headerPhoto">
+        <h1>LOS MEJORES<br><span id="strongWords">INSTRUMENTOS MUSICALES</span><br>LOS ENCUENTRAS AQUI</h1>
       </div>
       <nav id="barNav">
         <ul>
-          <li>INICIO</li>
-          <li>QUIÉNES SOMOS</a></li>
-          <li><img id="logo" src="images/musicShopLogo.png" alt="Music Shop Logo"></li>
-          <li id="actualPage">TIENDA</li>
-          <li>CONTACTO</li>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">QUIÉNES SOMOS</a></li>
+          <!--<li><img id="logo" src="images/musicShopLogo.png" alt="Music Shop Logo"></li>-->
+          <li id="actualPage"><a href="#">TIENDA</a></li>
+          <li><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section id="instruments">
-        <h1>INSTRUMENTOS MUSICALES</h1>
+        <h1 class="firstTitle">INSTRUMENTOS MUSICALES</h1>
         <div id="items" class="flex-container">
           <section id="instrument1" class="itemsToBuy">
             <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
             <h1>UKELELE SOPRANO</h1>
             <p>Kalani</p>
             <h2>$125.000</h2>
-            <button class="button" type="button" onclick="showPayment()">COMPRAR</button>
+            <button class="button" type="button" class="btnBuy">COMPRAR</button>
           </section>
           <section id="instrument2" class="itemsToBuy">
             <img src="images/instrumentSaxo.png" alt="Saxofon">
@@ -51,14 +51,14 @@
       </section>
 
       <section id="payment" class="flex-container">
-        <section id="itemToShop">
+        <section id="itemToShop" class="itemToShop">
           <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
           <h1>UKELELE SOPRANO</h1>
           <p>Kalani</p>
           <h2>$125.000</h2>
         </section>
         <section id="paymentMethod" class="container">
-          <h1>COMPRUEBA TU MÉTODO DE PAGO</h1>
+          <h1 class="firstTitle">COMPRUEBA TU MÉTODO DE PAGO</h1>
           <div id="creditCard" class="creditCard">
                 <div class="logoBrand">
                   <img src="images/tc/logoVisa.png" alt="">
@@ -78,12 +78,44 @@
                     </div>
                 </div>
           </div>
-          <div class="formCard">
+          <div id="formDataCard">
             <form action="" id="formCard" class="formCard">
+<<<<<<< HEAD
               <label for="card">Número de la tarjeta</label>
               <input type="text" name="cardNumber" id="card" minlength="16" maxlength="16" required>
               <label for="inputNombre">Nombre</label>
+=======
+              <label for="card">Número Tarjeta de Crédito</label>
+              <input type="number" name="cardNumber" id="cardNumber" required>
+              <label for="inputNombre">Nombre del Titular</label>
+>>>>>>> 170e62a755e6bb681653c6a49c151d7fd9aed27e
               <input type="text" autocomplete="off" id="inputNombre">
+              <label for="selectMonth">Fecha de expiración</label>
+              <input placeholder="Mes" list="months"  id="selectMonth" required>
+                <datalist id="months">
+                  <option value="1">
+                  <option value="2">
+                  <option value="3">
+                  <option value="4">
+                  <option value="5">
+                  <option value="6">
+                  <option value="7">
+                  <option value="8">
+                  <option value="9">
+                  <option value="10">
+                  <option value="11">
+                  <option value="12">
+                </datalist>
+              <input placeholder="Año" list="year"  id="selectMonth" required>
+                <datalist id="year">
+                  <option value="2020">
+                  <option value="2021">
+                  <option value="2022">
+                  <option value="2023">
+                  <option value="2024">
+                  <option value="2025">
+                </datalist>
+              <button id="validDataCard"type="submit" name="Validar">ENVIAR</button>
             </form>
           </div>
         </section>
@@ -91,7 +123,6 @@
     </main>
 
   <footer>
-    <div class="flex-container">
       <img class="socialMediaImg" src="images/socialMail.png" alt="E-mail">
       <p>musicshop@gmail.com</p>
       <img class="socialMediaImg" src="images/socialPhone.png" alt="Phone">
@@ -100,7 +131,6 @@
       <img class="socialMediaImg" src="images/socialInstagram.png" alt="Instagram">
       <img class="socialMediaImg" src="images/socialWhatsapp.png" alt="Whatsapp">
       <img class="socialMediaImg" src="images/socialTwitter.png" alt="Twitter">
-    </div>
   </footer>
 
   <script src="index.js" type="module"></script>
