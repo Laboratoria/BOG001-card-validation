@@ -8,29 +8,6 @@ body{
     font-family: Lato;
 }
 
-#encabezado{
-  background: url(images/fondo_header.jpg) bottom fixed;
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 400px;
-  }
-
-nav{
-  background-color: #575757;
-  min-height: 50px;
-  color: #FFFFFF;
-}
-
-#actualPage{
-  color: #FFB801;
-}
-
-#logo{
-  height: 10%;
-  width: 10%;
-}
-
 main{
   text-align: center;
 }
@@ -44,15 +21,76 @@ h2{
   font-family: Lato;
 }
 
+/*--------- ESTILOS HEADER ---------*/
+#headerPhoto{
+  background: url(images/bgGuitar.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  }
+
+#headerPhoto h1{
+  color: #FFFFFF;
+  padding: 5%;
+  font-size: 45px;
+}
+
+#headerPhoto span{
+  color: #575757;
+}
+
+nav{
+  background-color: #575757;
+  min-height: 70px;
+  display: flex; /*solucionó el problema(67) de centrar verticalmente(46) + horizontalmente (47)*/
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #5CEAE5;
+  background-color: black; /*Para probar porque el tamaño está por fuera de barNav y no aplican padding 20px*/
+}
+
+#actualPage{
+  color: #FFB801; /*¿Por qué no actualiza color con ID?*/
+}
+
+#logo{
+  height: 10%;
+  width: 10%;
+}
+
+/*--------- ESTILOS INSTRUMENTS ---------*/
+.firstTitle{
+  font-size: 35px;
+  padding: 3% 0;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  padding: 3% 0;
 }
 
-.itemsToBuy img{
-  width: 60%;
-  padding: 8%;
+.itemsToBuy img, .itemToShop img{
+  width: 80%;
 }
 
 button{
@@ -79,10 +117,6 @@ button{
   background-color: #7F7F7F
 }
 
-/*#payment{
-  display:none;
-}*/
-
 /*--------- ESTILOS TARJERA ---------*/
 .container{
   width: 90%;
@@ -95,15 +129,11 @@ button{
 }
 
 .creditCard{
-  width: 500px;
-  min-height: 250px;
+  width: 450px;
+  height: 250px;
   background-color: #7F7F7F;
   color: #FFFFFF;
   border-radius: 15px;
-}
-
-.creditCard > div{
-  padding: 15px;
 }
 
 .logoBrand{
@@ -130,16 +160,34 @@ button{
   padding: 10px;
 }
 
+#creditCard div{
+  padding: 0 15px;
+}
+
 #data{
   text-align: left;
 }
 
-/*--------- ESTILOS TARJERA ---------*/
+/*--------- ESTILOS FORM ---------*/
+#formDataCard{
+  color: #ffffff;
+  margin: 20px;
+}
 
+#formDataCard label, #formDataCard input{
+  display: block;
+  margin: 7%;
+  text-align: left;
+}
+
+/*--------- ESTILOS FOOTER ---------*/
 footer{
   background-color: #575757;
   margin-top: 2%;
   color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .socialMediaImg{
@@ -147,3 +195,12 @@ footer{
   width: 3%;
   padding: 1%;
 }
+
+/*--------- ESTILOS DOM > JS ---------*/
+/*.hidden {
+	display: none;
+}
+
+.active {
+	display: block;
+}*/
