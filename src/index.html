@@ -6,32 +6,37 @@
     <title>Apartamentos Hogar</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
+    
 </head>
 <body>
-    <section class="container">
+    <section class="pantalla">
         <header>
-            <section class="breadth">
-                <div class="logo">
-                    <img src="/src/img/logo.png" alt="Logo apartamentos hogar">
-                </div>
-                <nav> 
-                    <ul>
-                        <li><a href="#">Hogar</a></li>
-                        <li><a href="#">LLave</a></li>
-                        <li><a href="#">Vecinos</a></li>
-                        <li><a href="#">Ayuda</a></li>
-                    </ul>
-                </nav>
-            </section>
+            <article class="menu">
+                <img class="logo" src="/src/img/logo.png" alt="Logo apartamentos hogar">
+            </article>
+            <nav> 
+                <ul>
+                    <li><a href="#">Hogar</a></li>
+                    <li><a href="#">LLave</a></li>
+                    <li><a href="#">Vecinos</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
-            <section class="images">
-                <img src="img/perdio.png" alt="olvido su tarjeta">
-            </section>
-            <section class="text">
-                <button class="card" onclick="">¿Olvido su Tarjeta?</button>
-            </section>
+            <article class="cuerpo">
+                <article class="img">
+                    <img class="perdido" src="img/perdio.png" alt="olvido su tarjeta">
+                </article>
+                <article class="texto">
+                    <p class="bien">Bienvenido a</p>
+                    <p class="apat">Apartamentos</p> 
+                    <p class="home">Hogar</p> <br>
+                    <input type="button" class="btn" onclick="showButton(this)" value="¿Olvido su tarjeta?">
+                </article>
+            </article>
         </main>
     </section>
+    <script src="script.js" type="module"></script>
 </body>
 </html>
