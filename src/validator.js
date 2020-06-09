@@ -1,5 +1,5 @@
 //Obtener el input de la tdc
-let inputNumberCard = document.getElementById('inputNumberCard');
+const inputNumberCard = document.getElementById('inputNumberCard');
 
 //validator.isValid(creditCardNumber)
 const validator = {
@@ -7,7 +7,7 @@ const validator = {
     //Convertir el numero de la tdc en array y obtener el inverso
     let cardNumberReverse = cardNumber.split('').reverse();
     console.log(cardNumberReverse);
-    
+    //for each
     //seleccionar los numeros en las posiciones pares del array
     let arrayPairsNumbers =[cardNumberReverse[1],cardNumberReverse[3],cardNumberReverse[5],cardNumberReverse[7],cardNumberReverse[9],cardNumberReverse[11],cardNumberReverse[13],cardNumberReverse[15]];
     console.log(arrayPairsNumbers);
