@@ -1,13 +1,13 @@
 //Obtener el input de la tdc
-let inputNumberCard = document.getElementById('inputNumberCard');
+const inputNumberCard = document.getElementById('inputNumberCard');
 
 //validator.isValid(creditCardNumber)
 const validator = {
-  isvalid: function(cardNumber){    
+  isvalid: function(cardNumber){
     //Convertir el numero de la tdc en array y obtener el inverso
     let cardNumberReverse = cardNumber.split('').reverse();
     console.log(cardNumberReverse);
-    
+
     //seleccionar los numeros en las posiciones pares del array
     let arrayPairsNumbers =[cardNumberReverse[1],cardNumberReverse[3],cardNumberReverse[5],cardNumberReverse[7],cardNumberReverse[9],cardNumberReverse[11],cardNumberReverse[13],cardNumberReverse[15]];
     console.log(arrayPairsNumbers);
@@ -19,7 +19,7 @@ const validator = {
     })
     console.log(doubles);
 
-    // let digitSum = doubles 
+    // let digitSum = doubles
     // function sum(number) {
     //   let res = 0;
     //   number.split('').forEach(c => res += parseInt(c));
@@ -32,11 +32,11 @@ const validator = {
     //   return arrayMultiplication
     // })
     // let arrayMultiplication = []
-    // for (let i = 0; i <= arrayPairsNumbers.length - 1; i++){      
+    // for (let i = 0; i <= arrayPairsNumbers.length - 1; i++){
     //   arrayMultiplication = arrayMultiplication + arrayPairsNumbers[i]* 2 ;
     //   arrayMultiplication = arrayMultiplication + arrayPairsNumbers[i]* 2 ;
-    // } 
-    
+    // }
+
 
     //return =
   }
