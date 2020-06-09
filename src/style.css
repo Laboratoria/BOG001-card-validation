@@ -93,18 +93,16 @@ nav ul li a:hover{
   width: 80%;
 }
 
-button{
+button {
     background-color: #00A1A1;
     border: none;
     border-radius: 12px;
     color: #FFFFFF;
     font-family: Chau Philomene One;
     padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2% 0;
     cursor: pointer;
     transition-duration: 0.4s;
 }
