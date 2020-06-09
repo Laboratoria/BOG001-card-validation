@@ -1,10 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     width: 100%;
     height: auto;
     background-color: #ffc100;
     font-family: 'Bebas Neue', cursive;
-    margin: auto;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,61 +35,54 @@ body {
 /* logo y menu */
 
 header {
+    background: green;
     width: 100%;
     margin: 0;
     padding: 0;
-}
-
-.menu {
-    width: 20%;
+    font-size: 25px;
     float: left;
-    position: relative;
-    bottom: 30px;
-    left: 20px;
 }
 
-.logo {
-    max-width: 100%;
-    max-height: auto;
-    
-}
-
-/*menu*/
-
-nav {
-    width: 80%;
-    height: auto;
+nav .contenedor {
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     float: left;
-    padding-top: 25px;
-    box-sizing: border-box;
-    font-size: 20px;
+}    
+
+nav .logo{
+    height: 70px;
 }
 
-    ul {
-        padding: 0;
-    }
+.log img{
+    height: 100%;
+    vertical-align: top;
+}
 
-    nav li {
-        border-right: 1px solid #f7931e;
-    }
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.icono {
+    height: 100%;
+    width: 7opx;
+    text-align: center;
+    display: none;
+}
+.icono img {
+    vertical-align: top;
+    padding: 23px;
+}
 
-    nav ul li {
-        display: inline;
-    }
-
-    nav ul li a {
-        color: black;
-        text-decoration: none;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    nav ul li a:hover {
-        background: #ffc100;
-        border-radius: 3px;
-        color: black;
-    }
-
+.enlaces {
+    float: left;
+}
 /*css contenido de imagen y texto o botones*/
 
 .cuerpo {
@@ -93,7 +93,7 @@ nav {
 }
 
 .perdido {
-    max-width: 60%;
+    max-width: 100%;
     height: auto;
 }
 .img {
@@ -148,17 +148,14 @@ nav {
     
 }
 
-@media screen and (min-width: 250px) {
+/*jquery*/
+
+@media screen and (min-width: 300px) {
     body {
         width: 100%;
         height: auto;
     }
-    .nav {
-        width: 50%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-    }
+
     .img {
         display: none;
     }
@@ -171,31 +168,18 @@ nav {
         text-align: right;
     }
 
-    .texto {
-        width: 100%;
-        margin: 0;
-        padding: 50px 80px 50px 50px;
-        box-sizing: border-box;
-    }*/
 }
     
-/*jquery*/
 
 @media screen and (min-width: 600px) {
     body {
         width: 100%;
         height: auto;
     }
-    .nav {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-    }
+   
     .img {
         display: block;
     }
-
 }
 
 @media screen and (min-width: 960px) {
@@ -203,13 +187,9 @@ nav {
         width: 100%;
         height: auto;
     }
-    .nav {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-    }
+  
     .img {
+        max-width: 100%;
         display: block;
     }
 }

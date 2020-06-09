@@ -4,10 +4,6 @@ console.log(validator);
 
 
 
-function showButton() {
-    
-}
-asingStart();
 
 
 
