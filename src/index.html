@@ -15,14 +15,15 @@
         <ul>
           <li><a href="#">INICIO</a></li>
           <li><a href="#">QUIÉNES SOMOS</a></li>
-          <!--<li><img id="logo" src="images/musicShopLogo.png" alt="Music Shop Logo"></li>-->
-          <li id="actualPage"><a href="#">TIENDA</a></li>
+          <!--<div><img id="logo" src="images/musicShopLogo.png" alt="Music Shop Logo"></div>-->
+          <li><a id="actualPage" href="#">TIENDA</a></li>
           <li><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
+
       <section id="instruments">
         <h1 class="firstTitle">INSTRUMENTOS MUSICALES</h1>
         <div id="items" class="flex-container">
@@ -31,26 +32,26 @@
             <h1>UKELELE SOPRANO</h1>
             <p>Kalani</p>
             <h2>$125.000</h2>
-            <button class="button" type="button" class="btnBuy">COMPRAR</button>
+            <button class="button" type="button" id="btnBuy">COMPRAR</button>
           </section>
           <section id="instrument2" class="itemsToBuy">
             <img src="images/instrumentSaxo.png" alt="Saxofon">
             <h1>SAXOFON ALTO</h1>
             <p>Conductor</p>
             <h2>$1'375.000</h2>
-            <button class="buttonDisabled" type="button" onclick="alert('Muy pronto lo tendremos en stock')">AGOTADO</button>
+            <button class="btnDisabled" type="button" >AGOTADO</button>
           </section>
           <section id="instrument3" class="itemsToBuy">
             <img src="images/instrumentPiano.png" alt="Ukelele Kalani">
             <h1>PIANO DE COLA</h1>
             <p>Harrodser</p>
             <h2>$41'000.000</h2>
-            <button class="buttonDisabled" type="button" onclick="alert('Muy pronto lo tendremos en stock')">AGOTADO</button>
+            <button class="btnDisabled" type="button" >AGOTADO</button>
           </section>
         </div>
       </section>
 
-      <section id="payment" class="flex-container">
+      <section id="payment" class="flex-container hidden">
         <section id="itemToShop" class="itemToShop">
           <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
           <h1>UKELELE SOPRANO</h1>
@@ -71,7 +72,7 @@
                 </div>
                 <div id="nameExp" class="flex-container">
                     <div id="dataName">
-                      <p class="dataName">Jhon Doe</p>
+                      <p class="dataName">Ana Rátiva</p>
                     </div>
                     <div id="dataExpiration">
                       <p class="dataExpiration"><span class="month">MM</span>/<span class="year">AA</span></p>
@@ -82,10 +83,10 @@
             <form action="" id="formCard" class="formCard">
               <label for="inputNumberCard">Número Tarjeta de Crédito</label>
               <input type="text" name="cardNumber" id="inputNumberCard" minlength="16" maxlength="16" required>
-              <label for="inputName">Nombre del Titular</label>              
+              <label for="inputName">Nombre del Titular</label>
               <input type="text" autocomplete="off" id="inputName">
               <label for="selectMonth">Fecha de expiración</label>
-              <input placeholder="Mes" list="months"  id="selectMonth" required>
+              <!--<input placeholder="Mes" list="months"  id="selectMonth" required>
                 <datalist id="months">
                   <option value="1">
                   <option value="2">
@@ -108,7 +109,13 @@
                   <option value="2023">
                   <option value="2024">
                   <option value="2025">
-                </datalist>
+                </datalist>-->
+                <select name="month" id="selectMonth">
+                    <option disabled selected>Mes</option>
+                </select>
+                <select name="year" id="selectYear">
+                    <option disabled selected>Año</option>
+                </select>
               <button id="validDataCard"type="submit" name="Validar">ENVIAR</button>
             </form>
           </div>
