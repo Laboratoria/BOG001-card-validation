@@ -167,14 +167,9 @@ button {
 }
 
 /*--------- ESTILOS FORM ---------*/
-#formDataCard{
-  color: #575757;
-  margin: 20px
-}
-
 #formDataCard label, #formDataCard input, #formCard button{
   display: block;
-  margin: 7%;
+  margin: 7% 0;
   text-align: left;
 }
 
@@ -198,7 +193,7 @@ footer{
 .socialMediaImg{
   height: 3%;
   width: 3%;
-  padding: 1%;
+  margin: 1%;
 }
 
 /*--------- ESTILOS DOM > JS ---------*/
