@@ -67,14 +67,14 @@
                   <img src="images/tc/chip.png" alt="" class="chip">
                 </div>
                 <div id="data">
-                  <p class="dataNumber" id="dataNumber">**** **** **** 2156</p>
+                  <p class="dataNumber" id="dataNumber">#### #### #### ####</p>
                 </div>
                 <div id="nameExp" class="flex-container">
-                    <div id="dataName">
-                      <p class="dataName">Ana Rátiva</p>
+                    <div id="Name">
+                      <p class="dataName" id="dataName">Nombre titular</p>
                     </div>
                     <div id="dataExpiration">
-                      <p class="dataExpiration"><span class="month">MM</span>/<span class="year">AA</span></p>
+                      <p class="dataExpiration"><span id="month">MM</span>/<span id="year">AA</span></p>
                     </div>
                 </div>
           </div>
@@ -84,14 +84,14 @@
               <input type="text" name="cardNumber" id="inputNumberCard" minlength="16" maxlength="16" required>
               <label for="inputName">Nombre del Titular</label>
               <input type="text" autocomplete="off" id="inputName">
-              <label for="selectMonth">Fecha de expiración</label>              
+              <label for="selectMonth">Fecha de expiración</label>
                 <select name="month" id="selectMonth">
                     <option disabled selected>Mes</option>
                 </select>
                 <select name="year" id="selectYear">
                     <option disabled selected>Año</option>
                 </select>
-              <button id="validDataCard"type="submit" name="Validar">ENVIAR</button>
+              <button id="validDataCard" type="submit" name="Validar">ENVIAR</button>
             </form>
           </div>
         </section>
