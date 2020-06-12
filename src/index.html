@@ -12,3 +12,72 @@
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+    <header>
+      <img src="imagenes/LABORATORIA SHOP.png" id="banner">
+     </header>
+    <main>
+     <h2 id="bienvenido">¡Bienvenidos a la Tienda de la Comunidad Laboratoria!</h2>
+     <h2 id="uno">1.Selecciona lo que deseas comprar</h2>
+     
+     <figure>
+     <span>
+     <img src= "imagenes/camisa1.png" id="camisa">
+     <p>$ 30.000</p>
+    
+     </figure>
+     <figure>
+     <span>
+     <img src= "imagenes/Vaso.png" id="vaso">
+     <p>$ 15.000</p>
+     </figure>
+    </span>
+    <div id="botones">
+      
+      <button name="Comprar1" id="comprar1" onclick=" Mostrar_Ocultar();">Comprar</button>
+      <button name="Comprar2" id="comprar2" onclick=" Mostrar_Ocultar();">Comprar</button>
+    </div>
+  <div id="Mostrarform">
+  
+   <h2 id="dos">2.Ingresa tu tarjeta de crédito</h2>
+
+   <form>
+      <label for="tarjetacredito"></label>
+      <input type="number" id="tarjetacredito" placeholder="Pon tu numero aqui" name="numerotarjeta"/>
+      <button type="button" id="tarjeta" onclick="validar()">Validar</button>
+    </form>
+
+   <h2 id="tres">Gracias, continua con tu compra</h2><button name="Siguiente" id="Siguiente" onclick="">Siguiente</button>
+
+  </div>
+
+  <img src= "imagenes/mujercompu.jpg" id="mujercompu"> 
+   </main>
+   <footer>
+      <div class= "footer-copy-redes">
+        <div class= "main-copy-redes">
+          <div class= "footer-copy">
+            &copy;2020, Todos los derechos reservados - |Laboratoria|
+          </div>
+          <div class= "footer-redes">
+            <img src="imagenes/instagram1.png" id="instagram">
+            <img src="imagenes/twitter.png" id="twitter">
+            <img src="imagenes/facebook.png" id="facebook">
+           </div>
+        </div>
+      </div>
+    </footer>
+    <script src="validator.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
