@@ -5,7 +5,7 @@ const validator = {
   isvalid: function(cardNumber){
     //Convertir el numero de la tdc en array y obtener el inverso
     let algorithmArray = cardNumber.split('').reverse();
-      
+      console.log(algorithmArray);
 //----------------------------- forEach ----------------------------------------------
     algorithmArray.forEach((element, index) => {
 
@@ -45,8 +45,8 @@ const validator = {
 };
 
 //----------------------- Codigo para pruebas ----------------------------------------
-// inputNumberCard.addEventListener('blur', function(){
-//   validator.isvalid(inputNumberCard.value)
-// });
+inputNumberCard.addEventListener('blur', function(){
+  validator.isvalid(inputNumberCard.value)
+});
 
 export default validator;
