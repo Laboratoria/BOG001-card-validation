@@ -1,0 +1,65 @@
+[33mcommit 125dcedc0d53b129b393325353c109865ba41d22[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: acc951e c2701a8
+Author: CamiYanez <66316981+CamiYanez@users.noreply.github.com>
+Date:   Thu Jun 4 09:57:23 2020 -0500
+
+    Merge pull request #2 from AnaRativa09/master
+    
+    Actualización html semántico,estructura TDC + imágenes
+
+[33mcommit c2701a8a74f53a71059480010a349f557ca9bc44[m
+Author: AnaRativa09 <anarativa09@gmail.com>
+Date:   Thu Jun 4 09:49:10 2020 -0500
+
+    Actualización html semántico,estructura TDC + imágenes
+
+[33mcommit acc951e43861fd1ea3d2332fa36248f28537104d[m
+Merge: fbf4cca f96ca4f
+Author: CamiYanez <66316981+CamiYanez@users.noreply.github.com>
+Date:   Wed Jun 3 12:17:45 2020 -0500
+
+    Merge pull request #1 from AnaRativa09/master
+    
+    Prueba de manejo, sgeundo cambio README
+
+[33mcommit f96ca4ff41b5ccaf5270ee1518d6488ca82d147d[m
+Author: AnaRativa09 <anarativa09@gmail.com>
+Date:   Wed Jun 3 11:32:30 2020 -0500
+
+    Prueba de manejo, sgeundo cambio README
+
+[33mcommit fbf4cca58a6127de507dddbd1a3fc71976e627f8[m
+Author: Camila Yanez <ccynzz@gmail.com>
+Date:   Wed Jun 3 11:27:49 2020 -0500
+
+    prueba cambio en readme
+
+[33mcommit a2bf0f25e93888d5800a26b584c88501ee493b98[m
+Author: Camila Yanez <ccynzz@gmail.com>
+Date:   Wed Jun 3 10:49:15 2020 -0500
+
+    html basico, primeras reglas de css
+
+[33mcommit ea312b17d899599d37496398230b2b00055c0048[m
+Author: Lupe CaMay <lupemaydana@gmail.com>
+Date:   Thu May 28 20:02:30 2020 -0400
+
+    Update README.md
+
+[33mcommit 903d4feff8ce42e93a07d9c368698be0863ef1f7[m
+Author: Lupe CaMay <lupemaydana@gmail.com>
+Date:   Thu May 28 19:55:31 2020 -0400
+
+    Update README.md
+
+[33mcommit 0f41a2079aa4e233af08d59a36f8755be4558dc8[m
+Author: Lupe CaMay <lupemaydana@gmail.com>
+Date:   Thu May 28 19:46:20 2020 -0400
+
+    Update README.md
+
+[33mcommit 405445d7bb44aa0de50cd0877081678ab385512a[m
+Author: luucamay <lupemaydana@gmail.com>
+Date:   Thu May 28 19:11:48 2020 -0400
+
+    chore(init): Adds project files from curriculum

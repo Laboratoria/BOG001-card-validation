@@ -2,13 +2,114 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Music Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <header>
+      <div id="headerPhoto">
+        <h1>LOS MEJORES<br><span id="strongWords">INSTRUMENTOS MUSICALES</span><br>LOS ENCUENTRAS AQUI</h1>
+      </div>
+      <nav id="barNav">
+        <ul>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">QUIÉNES SOMOS</a></li>
+          <!--<div><img id="logo" src="images/musicShopLogo.png" alt="Music Shop Logo"></div>-->
+          <li><a id="actualPage" href="#">TIENDA</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="instruments">
+        <h1 class="firstTitle">INSTRUMENTOS MUSICALES</h1>
+        <div id="items" class="flex-container">
+          <section id="instrument1" class="itemsToBuy">
+            <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
+            <h1>UKELELE SOPRANO</h1>
+            <p>Kalani</p>
+            <h2>$125.000</h2>
+            <button class="button" type="button" id="btnBuy">COMPRAR</button>
+          </section>
+          <section id="instrument2" class="itemsToBuy">
+            <img src="images/instrumentSaxo.png" alt="Saxofon">
+            <h1>SAXOFON ALTO</h1>
+            <p>Conductor</p>
+            <h2>$1'375.000</h2>
+            <button class="btnDisabled" type="button" >AGOTADO</button>
+          </section>
+          <section id="instrument3" class="itemsToBuy">
+            <img src="images/instrumentPiano.png" alt="Ukelele Kalani">
+            <h1>PIANO DE COLA</h1>
+            <p>Harrodser</p>
+            <h2>$41'000.000</h2>
+            <button class="btnDisabled" type="button" >AGOTADO</button>
+          </section>
+        </div>
+      </section>
+
+      <section id="payment" class="flex-container hidden">
+        <section id="itemToShop" class="itemToShop">
+          <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
+          <h1>UKELELE SOPRANO</h1>
+          <p>Kalani</p>
+          <h2>$125.000</h2>
+        </section>
+        <section id="paymentMethod" class="container">
+          <h1 class="firstTitle">COMPRUEBA TU MÉTODO DE PAGO</h1>
+          <div id="creditCard" class="creditCard">
+                <div class="logoBrand">
+                  <img src="images/tc/logoVisa.png" alt="">
+                </div>
+                <div class="chip">
+                  <img src="images/tc/chip.png" alt="" class="chip">
+                </div>
+                <div id="data">
+                  <p class="dataNumber" id="dataNumber">#### #### #### ####</p>
+                </div>
+                <div id="nameExp" class="flex-container">
+                    <div id="Name">
+                      <p class="dataName" id="dataName">Nombre titular</p>
+                    </div>
+                    <div id="dataExpiration">
+                      <p class="dataExpiration"><span id="month">MM</span>/<span id="year">AA</span></p>
+                    </div>
+                </div>
+          </div>
+          <div id="formDataCard">
+            <form action="" id="formCard" class="formCard">
+              <label for="inputNumberCard">Número Tarjeta de Crédito</label>
+              <input type="text" name="cardNumber" id="inputNumberCard" minlength="16" maxlength="16" required>
+              <p id="errorValidation"></p>
+              <label for="inputName">Nombre del Titular</label>
+              <input type="text" autocomplete="off" id="inputName">
+              <label for="selectMonth">Fecha de expiración</label>
+                <select name="month" id="selectMonth">
+                    <option disabled selected>Mes</option>
+                </select>
+                <select name="year" id="selectYear">
+                    <option disabled selected>Año</option>
+                </select>
+              <button id="validDataCard" type="submit" name="Validar">ENVIAR</button>
+            </form>
+          </div>
+        </section>
+      </section>
+    </main>
+
+  <footer>
+      <img class="socialMediaImg" src="images/socialMail.png" alt="E-mail">
+      <p>musicshop@gmail.com</p>
+      <img class="socialMediaImg" src="images/socialPhone.png" alt="Phone">
+      <p>(+57) 316 828 2943</p>
+      <img class="socialMediaImg" src="images/socialFacebook.png" alt="Facebook">
+      <img class="socialMediaImg" src="images/socialInstagram.png" alt="Instagram">
+      <img class="socialMediaImg" src="images/socialWhatsapp.png" alt="Whatsapp">
+      <img class="socialMediaImg" src="images/socialTwitter.png" alt="Twitter">
+  </footer>
+
+  <script src="index.js" type="module"></script>
   </body>
 </html>

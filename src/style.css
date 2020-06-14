@@ -1,0 +1,207 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  color: #575757;
+  font-family: Lato;
+}
+
+main{
+text-align: center;
+}
+
+h1{
+color: #00A1A1;
+font-family: Chau Philomene One;
+}
+
+h2{
+font-family: Lato;
+}
+
+/*--------- ESTILOS HEADER ---------*/
+#headerPhoto{
+background: url(images/bgGuitar.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+#headerPhoto h1{
+color: #FFFFFF;
+padding: 5%;
+font-size: 45px;
+}
+
+#headerPhoto span{
+color: #575757;
+}
+
+nav{
+background-color: #575757;
+min-height: 70px;
+display: flex; /*solucionó el problema(67) de centrar verticalmente(46) + horizontalmente (47)*/
+align-items: center;
+justify-content: center;
+}
+
+nav ul{
+list-style-type: none;
+}
+
+nav ul li{
+float: left;
+}
+
+nav ul li a{
+color: #FFFFFF;
+text-align: center;
+padding: 20px 50px;
+text-decoration: none;
+}
+
+nav ul li a:hover{
+color: #5CEAE5;
+background-color: #7F7F7F; /*Para probar porque el tamaño está por fuera de barNav y no aplican padding 20px*/
+}
+
+#actualPage{
+color: #FFB801;
+}
+
+#logo{
+height: 10%;
+width: 10%;
+}
+
+/*--------- ESTILOS INSTRUMENTS ---------*/
+.firstTitle{
+font-size: 35px;
+padding: 3% 0;
+}
+
+.flex-container {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+padding: 3% 0;
+}
+
+.itemsToBuy img/*, .itemToShop img*/{
+width: 80%;
+}
+
+button {
+  background-color: #00A1A1;
+  border: none;
+  border-radius: 12px;
+  color: #FFFFFF;
+  font-family: Chau Philomene One;
+  padding: 10px 30px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2% 0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover{
+  background-color: #48B9B9;
+}
+
+.btnDisabled{
+background-color: #7F7F7F
+}
+
+/*--------- ESTILOS TARJERA ---------*/
+.container{
+width: 90%;
+max-width: 1000px;
+margin: auto;
+/*background-color: blue;*/
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.creditCard{
+width: 450px;
+height: 250px;
+background-color: #7F7F7F;
+color: #FFFFFF;
+border-radius: 15px;
+padding: 10px 0;
+margin: 2%;
+}
+
+.logoBrand{
+text-align: right;
+min-height: 70px;
+}
+
+.logoBrand img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+max-width: 100px;
+}
+
+.chip {
+width: 100%;
+max-width: 50px;
+}
+
+.dataNumber, .dataExpiration, .dataName{
+color: #FFFFFF;
+font-size: 25px;
+text-transform: uppercase;
+}
+
+.dataNumber, .chip{
+margin: 12px 15px;
+}
+
+#creditCard div{
+margin: 0 15px;
+}
+
+#data{
+text-align: left;
+}
+
+/*--------- ESTILOS FORM ---------*/
+#formDataCard label, #formDataCard input, #formCard button{
+display: block;
+margin: 7% 0;
+text-align: left;
+}
+
+#formCard input {
+border: 2px solid #CED6E0;
+width: 100%;
+padding: 5px 12px;
+border-radius: 5px;
+}
+
+/*--------- ESTILOS FOOTER ---------*/
+footer{
+background-color: #575757;
+margin-top: 2%;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.socialMediaImg{
+height: 3%;
+width: 3%;
+margin: 1%;
+}
+
+/*--------- ESTILOS DOM > JS ---------*/
+.hidden {
+display: none;
+}
