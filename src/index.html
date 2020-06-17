@@ -2,13 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<!--Miniformulario para pedir el número de tarjeta de crédito-->
+<label for="text"> Número de su TDC: </label>
+<input type="text" id="numtdc" maxlength=16 pattern=/[0-9]/ name="numtdc"/> </text>
+
+<!--Creación del botón-->
+<button name="enviar" id="botonenviar" onclick="Almacenar();"> Validar </button>
+
+<script type= "text/javascript" src="C:\Users\USER\Desktop\blanca\laboratoria\BOG001-card-validation\src\index.js"></script> <!--Llamando a JS-->
+
+<!--almacenar en un array cada caracter, usando el comando charAt(index). Usando un ciclo FOR que iría desde 15 hasta cero en forma decreciente, incorporando elemntos del string que están indicados por el índice (index)
+
+  </body><!--Fin del body-->
+
 </html>
