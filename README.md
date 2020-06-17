@@ -1,12 +1,31 @@
 # Tarjeta de crédito válida
 
 ## Índice
-
+                               FUTURE BANK
 * [1. Preámbulo](#1-preámbulo)
+Debido al Coronavirus (Covid 19) muchos usuarios bancarios prefieren no salir de casa y usar como medio de pago sus tarjetas de crédito, causando un incremento en la clonación de dichos plásticos. El Banco Future Bank desea prevenir la estafa de sus clientes, habilitando en su página web una aplicación que sea capaz de validar las tarjetas de crédito.
+
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
+Una aplicación web que valide tarjetas de crédito para prevenir el fraude de los plásticos durante la cuarentena
+
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+Objetivo general
+** Crear la aplicación web de acuerdo a los parámetos del proyecto establecidos.
+Objetivos específicos
+** Trabajar en la dupla 3.2 en el proyecto
+** Aprender a impletentar las funciones y comandos (HTML, CSS, JS)
+** Comprender las funciones implementadas y sus funciones para futuros proyectos
 * [4. Consideraciones generales](#4-consideraciones-generales)
+** Lectura del proyecto
+** Cronograma de Trabajo
+** Maquetado
+** Investigación de terminología
+** Puesta en marcha
+** Comprobación de codigo
+** Entrega del proyecto
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+** Manejo de los códigos usados (HTML, CSS, JS)
+** Seguimiento de pautas del proyecto
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
@@ -47,15 +66,15 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### UX
 
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario
-* [ ] Crear prototipos para obtener feedback e iterar
-* [ ] Aplicar los principios de diseño visual
+* [x] Diseñar la aplicación pensando y entendiendo al usuario
+* [x] Crear prototipos para obtener feedback e iterar
+* [?] Aplicar los principios de diseño visual
 
 ### HTML y CSS
 
-* [ ] Uso correcto de HTML semántico
-* [ ] Uso de selectores de CSS
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [x] Uso correcto de HTML semántico
+* [x] Uso de selectores de CSS
+* [?] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
@@ -83,7 +102,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### Buenas prácticas de desarrollo
 
-* [ ] Organizar y dividir el código en módulos (Modularización).
+* [x] Organizar y dividir el código en módulos (Modularización).
 * [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
