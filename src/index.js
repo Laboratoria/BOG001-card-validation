@@ -1,7 +1,3 @@
-import validator from './validator.js';
-
-console.log(validator);
-
 function Almacenar (){//Definiendo funcion de Almacenar
   canu=document.getElementById("numtdc").value;
   var mod = 0;//Declarando la variable para el módulo
