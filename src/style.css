@@ -1,0 +1,128 @@
+html.body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #ffc100;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 80px;
+}
+
+/* css contenedor total */
+
+.container {
+  width: 700px;
+  height: 500px;
+  background: url(img/fondo.png);
+  background-repeat: no-repeat;
+  box-shadow: 15px 15px 40px 0px rgb(60, 60, 60);
+  border-radius: 10px;
+}
+
+/* logo y menu */
+
+header {
+  width: 100%;
+  height: 140px;
+}
+
+/*ancho que contiene el logo y menu */
+
+.breadth {
+  width: 95%;
+  height: 140px;
+  margin: auto;
+}
+
+.logo {
+  width: 17%;
+  height: 140px;
+  float: left;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 30px;
+}
+
+/*menu*/
+
+nav {
+  width: 60%;
+  height: 140px;
+  float: left;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+nav li {
+  border-right: 1px solid #f7931e;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav ul li a:hover {
+  background: #ffc100;
+  border-radius: 3px;
+  color: black;
+}
+
+/*css contenido de imagen y texto o botones*/
+
+main {
+  width: 100%;
+  height: 360px;
+  margin: auto;
+  float: left;
+}
+
+.images {
+  width: 490px;
+  height: 290px;
+  float: left;
+  position: relative;
+  left: 30px;
+}
+
+.text {
+  width: 210px;
+  height: 360px;
+  background: url(img/bienvenida.png);
+  background-repeat: no-repeat;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  font-family: "Bebas Neue", cursive;
+  background-color: #ffc100;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 25px;
+  font-size: 20px;
+  position: relative;
+  right: 20px;
+}
+ /*responsive desgin/*
+
+ 
