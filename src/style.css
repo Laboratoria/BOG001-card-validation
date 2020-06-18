@@ -16,7 +16,8 @@ body {
 /* css contenedor total */
 
  .contenedor {
-    max-width: 90%;
+    width: 90%;
+    max-width: 700px;
     height: auto;
     background:url(img/fondo.png);
     background-repeat: no-repeat;
@@ -97,10 +98,10 @@ nav {
 }
 
 main {
-  width: 100%;
-  height: 360px;
-  margin: auto;
-  float: left;
+    width: 100%;
+    height: 360px;
+    margin: auto;
+    float: left;
 }
 
 .img {
@@ -156,9 +157,26 @@ main {
 }
 
 
+
 /* boton */
 
+input {
+    margin: 0;
+    font-size: 15px;
+    height: 20px;
+    width: 70%;
+    padding: 5px 10px;
+    transition: .3s ease all;
+    border-radius: 5px;
+    border: none;
+}
+
+    input:hover{
+        border: 2px solid white;
+}
+
 .btn {
+    margin-top: 20px;
     font-family: 'Bebas Neue', cursive;
     background-color: #ffc100;
     color: black;
@@ -166,9 +184,19 @@ main {
     border-radius: 3px;
     text-decoration: none;
     padding: 5px 25px;
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
+    .btn:hover {
+        background-color: #FF7600;
+        border: 2px solid #FF7600;
+    }
+    .btn:focus, input:focus{
+        outline: rgb(4,4,4);
+        box-shadow: 1px 5px 5px 1px rgba(80,80,80,0.3);
+    }
+
+
+
 
 /*jquery*/
 
@@ -212,7 +240,6 @@ main {
     }
 
 }
- /*responsive desgin/*
 
 @media screen and (min-width: 960px) {
 
