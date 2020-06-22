@@ -7,6 +7,7 @@
     <title>Apartamentos Hogar</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
+    
    
 </head>
 
@@ -40,7 +41,7 @@
                     <p class="bienvenido">Bienvenido a</p>
                     <p class="apartamentos">Apartamentos</p>
                     <p class="home">Hogar</p> <br>
-                    <button type="button" class="btn" onclick="mostrarNumero()">¿Olvido su tarjeta?</button>
+                    <button id="boton" type="button" class="btn">¿Olvido su tarjeta?</button>
                 </article>
             </article>
 
@@ -52,8 +53,8 @@
                 </article>
                 <article class="texto">
                     <p class="parrafo">Por favor digite <br> el número de <br> la tarjeta</p>
-                    <input id="card" type="text" maxlength="12" autocomplete="off"><br>
-                    <button type="button" class="btn" onclick="mostrarValidacion()" >Ingrese</button>
+                    <input id="card" type="text" maxlength="16" autocomplete="off"><br>
+                    <button type="button" class="btn" id="ingresar">Ingrese</button>
                 </article>
             </article>
 

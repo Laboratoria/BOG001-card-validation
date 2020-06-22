@@ -46,7 +46,6 @@ header {
 
 .logo {
     max-width: 100%;
-   
 }
 
 /*menu*/
@@ -96,6 +95,8 @@ nav {
 #mensaje{
     display: none;
 }
+
+
 
 main {
     width: 100%;

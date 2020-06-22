@@ -1,49 +1,36 @@
 const validator = {
 
-  isValid: function (cardNumber) {
+  isValid: num => {
+    // Accept only digits, dashes or spaces
+    if (/[^0-9-\s]+/.test(num)) return false;
 
-    //aquí definimos que los numeros se separen y luego aparezcan en una misma cadena.
+    // The Luhn Algorithm. It's so pretty.
+    let nCheck = 0, bEven = false;
+    num = num.replace(/\D/g, "");
 
-    cardNumber.split(" ").join(""); 
+    for (var n = num.length - 1; n >= 0; n--) {
+      var cDigit = num.charAt(n),
+        nDigit = parseInt(cDigit, 10);
 
-    if (parseInt(cardNumber) <= 0 || cardNumber.length > 16) {
+      if (bEven && (nDigit *= 2) > 9) nDigit -= 9;
 
-      return false;
-
+      nCheck += nDigit;
+      bEven = !bEven;
     }
 
-    //en éste array definimos el ciclo for, en donde se va a iterar para que vayan agregando los elementos al
-
-    var anotherArray = new Array(); 
-
-    for (var i = 0; i < cardNumber.length; i++) {
-
-      // Con el reverse se voltea el arreglo
-
-      anotherArray.reverse(); 
-
-      var sum = 0;
-
-      for (var i = 0; i < anotherArray.length; i++) {
-
-        var paramet = anotherArray[i];
-
-        if (i % 2 != 0) {
-
-          //Se dobla el dígito como dice la fórmula y si es digferente de 0...
-
-          paramet *= 2; //se multiplican los dígitos x2
-
-          if (paramet > 9) {
-
-            paramet -= 9; //Si los números son mayores a 9 se restan por ese valor
-          }
-        }
-        sum += paramet; //Finalmente se suma la var sum con la var paramet.
-      }
-      return sum % 10 == 0; //se divide entre 10 y si quedan en 0, es una tarjeta válida
-    }
+    return (nCheck % 10) == 0;
   },
+  maskify: num => {
+
+    let mask_simbol = "*";
+    if (num.length >= 4) {
+      let lastDigit = num.slice(-4);
+      let masked_str = mask_simbol.repeat(num.length - 4) + lastDigit;
+      return num = masked_str;
+    } else {
+      return num;
+    }
+  }
 };
 
 export default validator;
