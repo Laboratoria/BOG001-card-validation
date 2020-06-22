@@ -1,14 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartamentos Hogar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+   
+</head>
+
+<body>
+
+    <!-- menu y logo -->
+
+    <section class="contenedor">
+        <header>
+            <article class="menu">
+                <img class="logo" src="/src/img/logo.png" alt="Logo apartamentos hogar">
+            </article>
+            <nav>
+                <ul>
+                    <li><a href="#">Hogar</a></li>
+                    <li><a href="#">LLave</a></li>
+                    <li><a href="#">Vecinos</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- contenido -->
+
+        <main>
+            <article id="bienvenido" class="cuerpo">
+                <article class="img">
+                    <img class="perdido" src="img/perdio.png" alt="olvido su tarjeta">
+                </article>
+                <article class="texto">
+                    <p class="bienvenido">Bienvenido a</p>
+                    <p class="apartamentos">Apartamentos</p>
+                    <p class="home">Hogar</p> <br>
+                    <button id="boton" type="button" class="btn">¿Olvido su tarjeta?</button>
+                </article>
+            </article>
+
+            <!-- Ingresar numero -->
+
+            <article id="numero" class="cuerpo">
+                <article class="img">
+                    <img class="perdido" src="img/img2.png" alt="olvido su tarjeta">
+                </article>
+                <article class="texto">
+                    <p class="parrafo">Por favor digite <br> el número de <br> la tarjeta</p>
+                    <input id="card" type="text" maxlength="16" autocomplete="off"><br>
+                    <button type="button" class="btn" id="ingresar">Ingrese</button>
+                </article>
+            </article>
+
+            <!-- Validacion -->
+
+            <article id="validacion" class="cuerpo">
+                <article class="img">
+                    <img class="perdido" src="img/img2.png">
+                </article>
+                <article class="texto">
+                    <p class="parrafo">No es valido, <br> digite de nuevo <br> el numero</p>
+                    <input id="card" type="text" maxlength="12" autocomplete="off"><br>
+                    <button type="button" class="btn" onclick="mostrarMensaje()">Ingrese</button>
+                </article>
+            </article>
+
+            <!-- mensaje -->
+
+            <article id="mensaje" class="cuerpo">
+                <article class="img">
+                    <img class="perdido" src="img/img3.png">
+                </article>
+                <article class="texto">
+                    <p class="mensaje">No olvide siempre tener <br> su tarjeta de ingreso <br> a las torres,
+                        por su <br> seguridad y la  <br> de todos. <br> Gracias!</p>
+                </article>
+            </article>
+        </main>
+    </section>
+
     <script src="index.js" type="module"></script>
-  </body>
+</body>
+
 </html>

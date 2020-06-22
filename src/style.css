@@ -1,0 +1,262 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ffc100;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    
+}
+
+/* css contenedor total */
+
+ .contenedor {
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    background:url(img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 15px 15px 40px 0px rgb(60, 60, 60);
+    border-radius: 10px;
+} 
+
+/* logo y menu */
+
+header {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 20%;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    
+}
+
+.logo {
+    max-width: 100%;
+}
+
+/*menu*/
+
+nav {
+    width: 80%;
+    height: auto;
+    float: left;
+    padding-top: 25px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+    ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        transition: 0.7s ease-out;
+        padding: 4px 20px;
+    }
+
+    nav ul li a:hover {
+        border-top: 3px solid #ffc100;
+        border-bottom: 3px solid #ffc100;
+        color: black;
+    }
+
+/*css contenido de imagen y texto o botones*/
+
+#numero{
+    display: none;
+}
+
+#validacion{
+    display: none;
+}
+
+#mensaje{
+    display: none;
+}
+
+
+
+main {
+    width: 100%;
+    height: 360px;
+    margin: auto;
+    float: left;
+}
+
+.img {
+    max-width: 60%;
+    height: 360px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+    .perdido {
+        max-width: 100%;
+        height: auto;
+    }
+
+.texto {
+    width: 40%;
+    height: 360px;
+    padding: 30px 30px 0 0;
+    text-align: right;
+    float: left;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+    .bienvenido {
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    .apartamentos {
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .home {
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+/* Contenido del salto de pagina*/
+
+.parrafo {
+    font-size: 30px;
+}
+
+.mensaje{
+    font-size: 25px;
+}
+
+
+
+/* boton */
+
+input {
+    margin: 0;
+    font-size: 15px;
+    height: 20px;
+    width: 70%;
+    padding: 5px 10px;
+    transition: .3s ease all;
+    border-radius: 5px;
+    border: none;
+}
+
+    input:hover{
+        border: 2px solid white;
+}
+
+.btn {
+    margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ffc100;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 5px 25px;
+    font-size: 20px;  
+}
+    .btn:hover {
+        background-color: #FF7600;
+        border: 2px solid #FF7600;
+    }
+    .btn:focus, input:focus{
+        outline: rgb(4,4,4);
+        box-shadow: 1px 5px 5px 1px rgba(80,80,80,0.3);
+    }
+
+
+
+
+/*jquery*/
+
+@media screen and (min-width: 300px) {
+    
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .cuerpo {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img {
+        display: block;
+    }
+}
