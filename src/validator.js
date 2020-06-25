@@ -9,7 +9,7 @@ const validator = {
       if (pares == 0) {// Si es par el modulo dara cero
         let resultadoParcial = ( Number ( creditCardNumber ) * 2);//Convertimos el número y lo multiplicamos por dos
         if (resultadoParcial >= 10) {// Damos parametros para seguir con las operaciones 
-          let parcial = resultadoParcial.toString();
+          let parcial = resultadoParcial.toString();// Creamos una cadena 
           let numeritos = parcial.split('');
           let cuenta = 0;
           numeritos.forEach( creditCardNumber => {
