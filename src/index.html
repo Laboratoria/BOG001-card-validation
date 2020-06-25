@@ -4,66 +4,48 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
     <script src="index.js" type="module"></script>
-  </body>
-</html>
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  
+
     <header>
       <img src="imagenes/LABORATORIA SHOP.png" id="banner">
      </header>
     <main>
-     <h2 id="bienvenido">¡Bienvenidos a la Tienda de la Comunidad Laboratoria!</h2>
-     <h2 id="uno">1.Selecciona lo que deseas comprar</h2>
-     
-     <figure>
-     <span>
+   <section id ="catalog">
+     <h1>¡Bienvenidos a la Tienda de la Comunidad Laboratoria!</h1>
+     <h2>1.Selecciona lo que deseas comprar</h2>
+
+     <div id ="catbox">
+     <span id ="producto">
      <img src= "imagenes/camisa1.png" id="camisa">
-     <p>$ 30.000</p>
-    
-     </figure>
-     <figure>
-     <span>
+     <p>$ 30.000</p><button name="Comprar1" id="comprar1">Comprar</button>
+     </span>
+
+     <span id= "producto">
      <img src= "imagenes/Vaso.png" id="vaso">
-     <p>$ 15.000</p>
-     </figure>
-    </span>
-    <div id="botones">
-      
-      <button name="Comprar1" id="comprar1" onclick=" Mostrar_Ocultar();">Comprar</button>
-      <button name="Comprar2" id="comprar2" onclick=" Mostrar_Ocultar();">Comprar</button>
+     <p>$ 15.000</p><button name="Comprar2" id="comprar2">Comprar</button>
+     </span>
     </div>
-  <div id="Mostrarform">
-  
-   <h2 id="dos">2.Ingresa tu tarjeta de crédito</h2>
+   </section>
+   <section id= captura>
+
+   <div id="formulario">
+   <h2>2.Ingresa tu tarjeta de crédito</h2>
 
    <form>
       <label for="tarjetacredito"></label>
       <input type="number" id="tarjetacredito" placeholder="Pon tu numero aqui" name="numerotarjeta"/>
-      <button type="button" id="tarjeta" onclick="validar()">Validar</button>
+      <button type="button" id="tarjeta">Validar</button>
     </form>
-
-   <h2 id="tres">Gracias, continua con tu compra</h2><button name="Siguiente" id="Siguiente" onclick="">Siguiente</button>
-
-  </div>
-
+   </div>
+   </section>  
+   <section id= "final">
+   <h2 id=resultado></h2><button name="Siguiente" id="Siguiente" onclick="">Siguiente</button>
+   </section>
   <img src= "imagenes/mujercompu.jpg" id="mujercompu"> 
-   </main>
-   <footer>
+  </main>
+    <footer>
       <div class= "footer-copy-redes">
         <div class= "main-copy-redes">
           <div class= "footer-copy">
@@ -77,7 +59,5 @@
         </div>
       </div>
     </footer>
-    <script src="validator.js" type="text/javascript"></script>
-    <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
