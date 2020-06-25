@@ -29,13 +29,15 @@ const validator = {
   },
   
   maskify: (creditCardNumber) => {
-    let long = creditCardNumber.length;
-    if (long > 4) {
-      let lastDigit = creditCardNumber.slice(- 4);
-      let masked ="#".repeat(long - 4);
-      return masked + lastDigit
+    let enmascarado = '#';
+    if (creditCardNumber.length >= 4) {
+      let lastDigit = creditCardNumber.slice(-4);
+      let enmascaradoStr = enmascarado
+      .repeat(creditCardNumber.length -4)+lastDigit;
+      return creditCardNumber = enmascaradoStr;
+    } else {
+      return creditCardNumber;
     }
-  },
+},
 };
-
 export default validator;

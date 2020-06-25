@@ -26,6 +26,9 @@ Objetivos específicos
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 ** Manejo de los códigos usados (HTML, CSS, JS)
 ** Seguimiento de pautas del proyecto
+** Prototipado (sketching):
+ - Link de los skecthes a mano alzada y seleccionados: (pendiente subir)
+ - link bosquejo final en Google Slides: (pendiente subir)
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
@@ -65,46 +68,46 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 **aplicar** en tu proyecto.
 
 ### UX
-
-* [x] Diseñar la aplicación pensando y entendiendo al usuario
-* [x] Crear prototipos para obtener feedback e iterar
-* [?] Aplicar los principios de diseño visual
+[Yuri = Y] [Angela = A]
+* [Y] [A] Diseñar la aplicación pensando y entendiendo al usuario
+* [Y] [A] Crear prototipos para obtener feedback e iterar
+* [Y] [A] Aplicar los principios de diseño visual
 
 ### HTML y CSS
-
-* [x] Uso correcto de HTML semántico
-* [x] Uso de selectores de CSS
-* [?] Construir tu aplicación respetando el diseño realizado (maquetación).
+[Yuri = Y] [Angela = A]
+* [Y] [A] Uso correcto de HTML semántico
+* [Y] [A] Uso de selectores de CSS
+* [Y] [A] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
-
-* [ ] Uso de selectores de nodos del DOM
-* [ ] Manejo de eventos del DOM
-* [ ] Manipulación dinámica del DOM
+[Yuri = Y] [Angela = A]
+* [ ] [A] Uso de selectores de nodos del DOM
+* [ ] [A] Manejo de eventos del DOM
+* [ ] [A] Manipulación dinámica del DOM
 
 ### Javascript
-
-* [ ] Manipulación de strings
-* [ ] Uso de condicionales
-* [ ] Uso de bucles
-* [ ] Uso de funciones
-* [ ] Datos atómicos y estructurados
-* [ ] Utilizar ES Modules (`import` | `export`).
+[Yuri = Y] [Angela = A]
+* [ ] [A] Manipulación de strings
+* [ ] [A] Uso de condicionales
+* [ ] [x] Uso de bucles
+* [ ] [A] Uso de funciones
+* [ ] [x] Datos atómicos y estructurados
+* [ ] [A] Utilizar ES Modules (`import` | `export`).
 
 ### Testing
 
-* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
+* [A] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
 
 ### Git y GitHub
 
-* [ ] Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-* [ ] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
+* [A] Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+* [A] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
 
 ### Buenas prácticas de desarrollo
 
-* [x] Organizar y dividir el código en módulos (Modularización).
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+* [A] Organizar y dividir el código en módulos (Modularización).
+* [A] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [A 1/2] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 
