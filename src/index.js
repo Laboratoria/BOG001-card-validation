@@ -1,5 +1,6 @@
 import validator from './validator.js';
-
+let nombre = document.getElementById('nombre');
+let creditCardNumber = document.getElementById('creditCardNomber')
 document.getElementById('validarBoton').addEventListener("click", validar);
 
 nombre.addEventListener('keyup', (e) => {// (e) es un objeto de tipo evento
@@ -35,10 +36,5 @@ function validar(){
       }
    }
    let numeroEnmascarado = validator.maskify(numeroTarjeta);
-   
    console.log(numeroEnmascarado);
-   
-};
-//console.log(numeroTarjeta);
-
-//console.log(validator);
+}
