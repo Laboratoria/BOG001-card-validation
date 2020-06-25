@@ -23,6 +23,11 @@ describe('validator', () => {
     it('debería retornar false para "1234567890"', () => {
       expect(validator.isValid("1234567890")).toBe(false);
     });
+
+    it.only('debería retornar false para string vacío', () => {
+      console.log(validator.isValid(''))
+      expect(validator.isValid('')).toBe(false);
+    });
   });
 
   describe('validator.maskify', () => {

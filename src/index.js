@@ -1,17 +1,23 @@
 import validator from './validator.js';
-// Llamamos a los atributos
-const numeroTarjeta = document.getElementById('creditCardNumber').value;
+
 document.getElementById('validarBoton').addEventListener("click", validar);
 //console.log(tarjeta);
 function validar(){
+   let numeroTarjeta = document.getElementById('creditCardNumber').value;
    //console.log('hola'); //lo usamos para probar el boton
-   validator.isValid(numeroTarjeta)
-   if(validator.isValid(numeroTarjeta) === true){
-      alert("Señor usuario su Tarjeta de Crédito es: Valida")
-   }else {
-      alert("Señor usuario su Tarjeta de crédito es: No Valida")
+   if (numeroTarjeta === '') {
+      alert('Estimado usuario, por favor digite su nùmero de Tarjeta de Crédito');
+   }else{
+      let valida = validator.isValid(numeroTarjeta);
+      if (valida) {
+         document.getElementById('creditCardNumber');
+         alert('Estimado usuario su Tarjeta de Crédito es VALIDA');
+      } else{
+         document.getElementById("creditCardNumber");
+         alert('Estimado usuario su Tarjeta de Crédito es  NO VALIDA');
+      }
    }
-}
+};
 //console.log(numeroTarjeta);
 
 //console.log(validator);
