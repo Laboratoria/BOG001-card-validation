@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(img/pantalla.JPG);
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+	width: 100%;
+	height: 800px;
+	background: rgba(250, 250, 250, 0.3);
+	align-items: center;
+}
+
+.entrada1,
+.formulario-contenedor,
+.final{
+	margin-top: 150px;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	text-align: center;
+}
+
+#button {
+	border: 0;
+	background-color: #8eca03;
+	width: 130px;
+	height: 35px;
+	text-align: center;
+	border-radius: 30px;
+	margin: 10px;
+	color: #fff;
+}
+
+.inputt {
+	width: 130px;
+	border: 0;
+	background: rgba(200, 200, 200, 0.9);
+	height: 35px;
+	text-align: center;
+	border-radius: 30px;
+	margin: 5px;
+	margin: 10px;
+
+}
+
+.precio{
+	font-size: 40px;
+}
+
+input {
+	border: 0;
+	background: rgba(200, 200, 200, 0.9);
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	border-radius: 30px;
+	margin: 5px;
+
+}
+
+.tres-btn{
+	display: flex;
+	width: auto;
+}
+
+.contenedor2 {
+	margin-top: 150px;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	text-align: center;
+}
+
+.oculta {
+	display: none;
+}
+
+.activa {
+	display: block;
+}
+
+
+
