@@ -1,14 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+	<meta charset="utf-8">
+	<title>Pagos Sepub</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<header>
+
+	</header>
+	<main>
+		<section id="primerapagina-contenedor" class="entrada1 pantallas">
+			<h1>¡ En sinergia S.A siempre pensamos en tu comodidad ! </h1>
+
+			<img src="img/compu.jpg" alt="imagen computador">
+			<p> ¡Llévalo por solo! </p>
+			<p class="precio"><strong>$ 2.000.000</strong></p>
+			<p> Puedes encontrar aquí todo lo que necesitas para estar al día con tus servicios </p>
+			<div class="tres-btn">
+
+				<input class="inputt" name="b1" type="submit" value="PQR">
+
+				<input id="button" name="b2" type="submit" class="Pagar" value=Pagar onclick="FunctionPreg(event, 'formulario1')">
+
+				<input class="inputt" name="b3" type="submit" value="Guia">
+			</div>
+		</section>
+
+		<section>
+			<form class="formulario-contenedor pantallas " id="formulario1">
+				<div id="hh">
+
+					<label for=" "> Nombre: </label>
+					<br>
+					<input id="name" type="text" placeholder="Juanita perez" name="name" required />
+					<br>
+
+					<label for=" "> Número de factura: </label>
+					<input type="Numero de factura" id="Numero de factura" placeholder="Numero de factura" name="Numero de factura" required />
+					<br>
+					<div id="gg">
+						<label for=" "> Numero de tarjeta: </label>
+
+						<input type="number" placeholder="Numero" id="number" name=" number" required /> <br>
+					</div>
+
+					<label for=" "> Seleccione su banco: </label>
+
+					<select name="value">
+						<option value="value1"> Bancoomeva</option>
+						<option value="value2"> Banseguro</option>
+						<option value="value3">Tercer milenio</option> <br>
+
+						<input id="button" type="submit" value="Pagar" onclick="FunctionPreg(event, 'final')" >
+
+					</select>
+
+
+				</div>
+			</form>
+		</section>
+
+		<section id="final" class="pantallas final">
+			<h2 id="frase"> </h2>
+		</section>
+
+	</main>
+	<footer> Junio 2020 J&G</footer>
+	<script src="index.js" type="module"></script>
+</body>
+
 </html>
