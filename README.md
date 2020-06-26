@@ -1,9 +1,9 @@
 # Tarjeta de crédito válida
 
 ## Índice
-                               FUTURE BANK
+                               FUTURE BANK 
 * [1. Preámbulo](#1-preámbulo)
-Debido al Coronavirus (Covid 19) muchos usuarios bancarios prefieren no salir de casa y usar como medio de pago sus tarjetas de crédito, causando un incremento en la clonación de dichos plásticos. El Banco Future Bank desea prevenir la estafa de sus clientes, habilitando en su página web una aplicación que sea capaz de validar las tarjetas de crédito.
+Debido al Coronavirus (Covid 19) muchos usuarios bancarios prefieren no salir de casa y usar como medio de pago sus tarjetas de crédito, causando un incremento en la clonación de dichos plásticos. El Banco Future Bank desea prevenir la estafa de sus clientes, habilitando en su página web una aplicación que sea capaz de validar las tarjetas de crédito. Por ende se solucionaria el problema para los usuarios y el banco.
 
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 Una aplicación web que valide tarjetas de crédito para prevenir el fraude de los plásticos durante la cuarentena
@@ -27,8 +27,8 @@ Objetivos específicos
 ** Manejo de los códigos usados (HTML, CSS, JS)
 ** Seguimiento de pautas del proyecto
 ** Prototipado (sketching):
- - Link de los skecthes a mano alzada y seleccionados: (pendiente subir)
- - link bosquejo final en Google Slides: (pendiente subir)
+ & Link de los skecthes a mano alzada y seleccionados: https://drive.google.com/file/d/1psf4jOtmxMuF8rHnKc10dzjKORZzxgIO/view?usp=sharing
+ & link bosquejo final en Google Slides: https://docs.google.com/presentation/d/1w3zb0qix7YmG6zp57BHgmmWMRC_I42-xKD7Th9dJH-4/edit?usp=sharing
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
@@ -68,31 +68,32 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 **aplicar** en tu proyecto.
 
 ### UX
-[Yuri = Y] [Angela = A]
-* [Y] [A] Diseñar la aplicación pensando y entendiendo al usuario
-* [Y] [A] Crear prototipos para obtener feedback e iterar
-* [Y] [A] Aplicar los principios de diseño visual
+
+* [A] Diseñar la aplicación pensando y entendiendo al usuario
+* [A] Crear prototipos para obtener feedback e iterar
+* [A] Aplicar los principios de diseño visual
 
 ### HTML y CSS
-[Yuri = Y] [Angela = A]
-* [Y] [A] Uso correcto de HTML semántico
-* [Y] [A] Uso de selectores de CSS
-* [Y] [A] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+* [A] Uso correcto de HTML semántico
+* [A] Uso de selectores de CSS
+* [A] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
-[Yuri = Y] [Angela = A]
-* [ ] [A] Uso de selectores de nodos del DOM
-* [ ] [A] Manejo de eventos del DOM
-* [ ] [A] Manipulación dinámica del DOM
+
+* [A] Uso de selectores de nodos del DOM
+* [A] Manejo de eventos del DOM
+* [?] Manipulación dinámica del DOM
+Nota: En ocasiones me confundo con los terminos del DOM y el JS 
 
 ### Javascript
-[Yuri = Y] [Angela = A]
-* [ ] [A] Manipulación de strings
-* [ ] [A] Uso de condicionales
-* [ ] [x] Uso de bucles
-* [ ] [A] Uso de funciones
-* [ ] [x] Datos atómicos y estructurados
-* [ ] [A] Utilizar ES Modules (`import` | `export`).
+
+* [A] Manipulación de strings
+* [A] Uso de condicionales
+* [x] Uso de bucles
+* [A] Uso de funciones
+* [x] Datos atómicos y estructurados
+* [A] Utilizar ES Modules (`import` | `export`).
 
 ### Testing
 
@@ -107,7 +108,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 * [A] Organizar y dividir el código en módulos (Modularización).
 * [A] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [A 1/2] Uso de linter para seguir buenas prácticas (ESLINT).
+* [?] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 

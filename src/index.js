@@ -1,6 +1,6 @@
 import validator from './validator.js';
 let nombre = document.getElementById('nombre');
-let creditCardNumber = document.getElementById('creditCardNomber')
+let creditCardNumber = document.getElementById('creditCardNumber')
 document.getElementById('validarBoton').addEventListener("click", validar);
 
 nombre.addEventListener('keyup', (e) => {// (e) es un objeto de tipo evento
