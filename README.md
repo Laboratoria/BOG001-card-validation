@@ -27,7 +27,9 @@ Objetivos específicos
 ** Manejo de los códigos usados (HTML, CSS, JS)
 ** Seguimiento de pautas del proyecto
 ** Prototipado (sketching):
- & Link de los skecthes a mano alzada y seleccionados: https://drive.google.com/file/d/1psf4jOtmxMuF8rHnKc10dzjKORZzxgIO/view?usp=sharing
+ & Link de los skecthes a mano alzada y seleccionados: https://drive.google.com/file/d/1psf4jOtmxMuF8rHnKc10dzjKORZzxgIO/view?usp=sharing  
+ <img src="src/imagenesR/yurys.jpg" width= "600px"> 
+
  & link bosquejo final en Google Slides: https://docs.google.com/presentation/d/1w3zb0qix7YmG6zp57BHgmmWMRC_I42-xKD7Th9dJH-4/edit?usp=sharing
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
@@ -75,3 +77,5 @@ Nota: En ocasiones me confundo con los terminos del DOM y el JS
 * [A] Organizar y dividir el código en módulos (Modularización).
 * [A] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [?] Uso de linter para seguir buenas prácticas (ESLINT).
+
+
