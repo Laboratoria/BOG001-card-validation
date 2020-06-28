@@ -2,49 +2,53 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Laboratoria Shop</title>
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" type="module"></script>
   </head>
+  
   <body>
-
     <header>
-      <img src="imagenes/LABORATORIA SHOP.png" id="banner">
-     </header>
+      <section id="heading">
+      <img src="imagenes/LABORATORIA SHOP.png" id="banner"/>
+      </section>
+    </header>
+
     <main>
-   <section id ="catalog">
-     <h1>¡Bienvenidos a la Tienda de la Comunidad Laboratoria!</h1>
-     <h2>1.Selecciona lo que deseas comprar</h2>
+      <section id ="catalogo">
+      <h1>¡Bienvenidos a la Tienda de la Comunidad Laboratoria!</h1>
+      <h2>1.Selecciona lo que deseas comprar</h2>
+         <span id="producto">
+         <img src="imagenes/camisa1.png" id="camisa">
+         <p>$ 30.000</p><button name="Comprar1" id="comprar1">Comprar</button>
+         </span>
+         <span id="producto">
+         <img src="imagenes/Vaso.png" id="vaso">
+         <p>$ 15.000</p><button name="Comprar2" id="comprar2">Comprar</button>
+         </span>
+      </section>
 
-     <div id ="catbox">
-     <span id ="producto">
-     <img src= "imagenes/camisa1.png" id="camisa">
-     <p>$ 30.000</p><button name="Comprar1" id="comprar1">Comprar</button>
-     </span>
+      <section id="formulario" class="hidden">
+       <h2>2.Ingresa tu tarjeta de crédito</h2>
+       <form>
+       <label for="tarjetacredito"></label>
+       <input type="number" id="tarjetacredito" placeholder="Pon tu numero aqui" name="numerotarjeta"/>
+       <button name="Validartarjeta" id="tarjeta">Validar</button>
+       </form>
+      </section>
+      
+      <section id="resultado" class="hidden">
+       <h2>
 
-     <span id= "producto">
-     <img src= "imagenes/Vaso.png" id="vaso">
-     <p>$ 15.000</p><button name="Comprar2" id="comprar2">Comprar</button>
-     </span>
-    </div>
-   </section>
-   <section id= captura>
-
-   <div id="formulario">
-   <h2>2.Ingresa tu tarjeta de crédito</h2>
-
-   <form>
-      <label for="tarjetacredito"></label>
-      <input type="number" id="tarjetacredito" placeholder="Pon tu numero aqui" name="numerotarjeta"/>
-      <button type="button" id="tarjeta">Validar</button>
-    </form>
-   </div>
-   </section>  
-   <section id= "final">
-   <h2 id=resultado></h2><button name="Siguiente" id="Siguiente" onclick="">Siguiente</button>
-   </section>
-  <img src= "imagenes/mujercompu.jpg" id="mujercompu"> 
-  </main>
+       </h2>
+           
+       <h2>Gracias, continúa con tu compra</h2>
+       <button name="Volver" id="siguiente">Continuar</button>
+      </section>
+    
+      <img src= "imagenes/mujercompu.jpg" id="mujercompu"> 
+    </main>
+    
     <footer>
       <div class= "footer-copy-redes">
         <div class= "main-copy-redes">
