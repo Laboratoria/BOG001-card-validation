@@ -2,7 +2,7 @@
 
 La Tienda de la Comunidad Laboratoria ofrece productos únicos y de calidad, para que te sientas más identificado(a) con nosotros. Esta idea surgió de la primera promoción de Laboratoria (Bogotá). Apóyanos para que siga creciendo más nuestra comunidad alrededor del mundo.
 
-<img src= https://github.com/blarteagar/BOG001-card-validation/blob/blarteagar-patch-1/src/imagenes/Prototipo_alta_fidelidad1.png" alt= "logo" width="500" />
+<img src= https://github.com/blarteagar/BOG001-card-validation/blob/blarteagar-patch-1/src/imagenes/Prototipo_alta_fidelidad1.png"/>
 
 ***
 
