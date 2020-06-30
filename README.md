@@ -12,10 +12,10 @@ La Tienda de la Comunidad Laboratoria ofrece productos únicos y de calidad, par
 Las personas entusiastas del mundo tecnológico, que consumen productos hechos por empresas y organizaciones inclusivas, que no distinguen género, creencias o preferencias. Laboratoria Shop es para todos.
 
 ### Cuáles son los objetivos de estos usuarios en relación con nuestro producto
-Estas personas quieren usar productos divertidos que les permitan identificarse con los valores de Laboratoria: la innovación, el mejoramiento continuo, la inclusión, el trabajo en equipo, las capacidades de todos para aprender y aportar desde su diversidad, y las causas nobles que ayuden a construir un mundo mejor para todos.
+Estas personas quieren usar productos divertidos que les permitan identificarse con los valores de Laboratoria: la innovación, el mejoramiento continuo, la inclusión, el trabajo en equipo, las capacidades de todos para aprender y aportar desde su diversidad, y las causas nobles que ayuden a construir un mundo cada vez más incluyente.
 
 ### Cómo creemos que el producto que estamos creando está resolviendo problemas de nuestros usuarios
-Estamos poniendo al alcance de la gente, la posibilidad de tener contacto con el mundo tech, bien sea como actores principales (coders, developers), o bien como lovers del mundo tech, al adquirir prendas modernas, frescas, identificadas con causas nobles, con nuevas formas de relacionarnos, feminismo, libertad. Todos esos valores son representados por nuestra marca.
+Estamos poniendo al alcance de estas personas, la posibilidad de identificarse con nuestros valores de inclusión, bien sea como actores principales (coders, developers), o bien como entusiastas de la tecnología, al adquirir prendas modernas, frescas, identificadas con causas nobles, con nuevas formas de relacionarnos, con el feminismo y la libertad. Todos esos valores son representados por nuestra marca.
 
 ## Prototipo de baja fidelidad
 
