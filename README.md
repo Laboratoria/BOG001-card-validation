@@ -35,7 +35,7 @@ Recibimos el feedback de varias compañeras, las cuales nos dijeron que les gust
 
 
 
-# Objetivos de aprendizaje Blanca Arteaga
+# OBJETIVOS DE APRENDIZAJE ALCANZADOS
 
 ### UX
 
