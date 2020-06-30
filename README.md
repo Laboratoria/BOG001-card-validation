@@ -11,10 +11,10 @@ La Tienda de la Comunidad Laboratoria ofrece productos únicos y de calidad, par
 ### Quienes son los principales usuarios del producto
 Las personas que gustan de la tecnología, y son creyentes de la igualdad de oportunidades, la inclusión de personas sin importar su edad, su género, sus creencias ni sus preferencias. Laboratoria Shop es para todos.
 
-### Cuáles son los objetivos de estos usuarios en relación con tu producto
+### Cuáles son los objetivos de estos usuarios en relación con nuestro producto
 Estas personas quieren usar productos divertidos que les permitan identificarse con los valores de laboratoria: la innovación, el mejoramiento continuo, la inclusión, el trabajo en equipo, las capacidades de todos para aprender y aportar desde su diversidad, las causas nobles por un mejor planeta.
 
-### Cómo crees que el producto que estás creando está resolviendo sus problemas
+### Cómo creemos que el producto que estamos creando está resolviendo problemas de nuestros usuarios
 Estamos poniendo al alcance de la gente, la posibilidad de tener contacto con el mundo tech, bien sea como actores principales (coders, developers), o bien como lovers del mundo tech, al adquirir prendas modernas, frescas, identificadas con causas nobles, con nuevas formas de relacionarnos, feminismo, libertad. Todos esos valores son representados por nuestra marca.
 
 ## Prototipo de baja fidelidad
@@ -33,16 +33,18 @@ Recibimos el feedback de varias compañeras, las cuales nos dijeron que les gust
 
 <img src= "src/imagenes/Prototipo_alta_fidelidad2.png" width = "500">
 
-## Objetivos de aprendizaje Blanca Arteaga
 
-## UX
+
+# Objetivos de aprendizaje Blanca Arteaga
+
+### UX
 
  Diseñar la aplicación pensando y entendiendo al usuario.
  
  Crear prototipos para obtener feedback e iterar.
  
 
-## HTML y CSS
+### HTML y CSS
 
  Uso correcto de HTML semántico.
  
@@ -51,12 +53,12 @@ Recibimos el feedback de varias compañeras, las cuales nos dijeron que les gust
  Construir tu aplicación respetando el diseño realizado (maquetación).
  
  
-## DOM
+### DOM
  
  Manejo de eventos del DOM.
 
 
-## Javascript
+### Javascript
 
  Manipulación de strings.
  
@@ -67,14 +69,14 @@ Recibimos el feedback de varias compañeras, las cuales nos dijeron que les gust
  Uso de funciones.
  
  
-## Git y GitHub
+### Git y GitHub
 
  Comandos de git (add | commit | push).
  
  Manejo de repositorios de GitHub (clone | fork ).
  
  
-## Buenas prácticas de desarrollo
+### Buenas prácticas de desarrollo
  
  Uso de identificadores descriptivos (Nomenclatura | Semántica).
  
