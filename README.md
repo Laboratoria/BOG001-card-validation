@@ -9,10 +9,10 @@ La Tienda de la Comunidad Laboratoria ofrece productos únicos y de calidad, par
 ## INVESTIGACIÓN UX
 
 ### Quienes son los principales usuarios del producto
-Las personas que gustan de la tecnología, y son creyentes de la igualdad de oportunidades, la inclusión de personas sin importar su edad, su género, sus creencias ni sus preferencias. Laboratoria Shop es para todos.
+Las personas entusiastas del mundo tecnológico, que consumen productos hechos por empresas y organizaciones inclusivas, que no distinguen género, creencias o preferencias. Laboratoria Shop es para todos.
 
 ### Cuáles son los objetivos de estos usuarios en relación con nuestro producto
-Estas personas quieren usar productos divertidos que les permitan identificarse con los valores de laboratoria: la innovación, el mejoramiento continuo, la inclusión, el trabajo en equipo, las capacidades de todos para aprender y aportar desde su diversidad, las causas nobles por un mejor planeta.
+Estas personas quieren usar productos divertidos que les permitan identificarse con los valores de Laboratoria: la innovación, el mejoramiento continuo, la inclusión, el trabajo en equipo, las capacidades de todos para aprender y aportar desde su diversidad, y las causas nobles que ayuden a construir un mundo mejor para todos.
 
 ### Cómo creemos que el producto que estamos creando está resolviendo problemas de nuestros usuarios
 Estamos poniendo al alcance de la gente, la posibilidad de tener contacto con el mundo tech, bien sea como actores principales (coders, developers), o bien como lovers del mundo tech, al adquirir prendas modernas, frescas, identificadas con causas nobles, con nuevas formas de relacionarnos, feminismo, libertad. Todos esos valores son representados por nuestra marca.
