@@ -33,31 +33,49 @@ Recibimos el feedback de varias compañeras, las cuales nos dijeron que les gust
 
 <img src= "src/imagenes/Prototipo_alta_fidelidad2.png" width = "500">
 
-UX
- Diseñar la aplicación pensando y entendiendo al usuario
- Crear prototipos para obtener feedback e iterar
+## Objetivos de aprendizaje Blanca Arteaga
 
-HTML y CSS
- Uso correcto de HTML semántico
- Uso de selectores de CSS
- Construir tu aplicación respetando el diseño realizado (maquetación)
+## UX
+
+ Diseñar la aplicación pensando y entendiendo al usuario.
  
-DOM
- Manejo de eventos del DOM
-
-Javascript
- Manipulación de strings
- Uso de condicionales
- Uso de bucles
- Uso de funciones
-
+ Crear prototipos para obtener feedback e iterar.
  
-Git y GitHub
+
+## HTML y CSS
+
+ Uso correcto de HTML semántico.
+ 
+ Uso de selectores de CSS.
+ 
+ Construir tu aplicación respetando el diseño realizado (maquetación).
+ 
+ 
+## DOM
+ 
+ Manejo de eventos del DOM.
+
+
+## Javascript
+
+ Manipulación de strings.
+ 
+ Uso de condicionales.
+ 
+ Uso de bucles.
+ 
+ Uso de funciones.
+ 
+ 
+## Git y GitHub
+
  Comandos de git (add | commit | push).
- Manejo de repositorios de GitHub (clone | fork )
  
-Buenas prácticas de desarrollo
+ Manejo de repositorios de GitHub (clone | fork ).
  
- Uso de identificadores descriptivos (Nomenclatura | Semántica)
+ 
+## Buenas prácticas de desarrollo
+ 
+ Uso de identificadores descriptivos (Nomenclatura | Semántica).
  
 
