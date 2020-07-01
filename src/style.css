@@ -1,0 +1,199 @@
+/*Inicialmente la sección catálogo está visible, y las secciones restantes están ocultas. Posteriormente, con una función mostrar de JS, desaparece la sección catálogo y aparece la sección formulario. Luego, con una función similar aparece la sección resultados y posteriormente la sección volver*/
+*{font-family:"Agency FB"}
+
+#catalogo{
+text-align: center;  
+width: 800px;
+height: 300px;
+margin: auto;
+display: block;
+}
+
+#formulario, #resultado{
+text-align: center; 
+width: 800px;
+height: 300px;
+font-size: 26px;
+margin: auto;
+display: none;
+}
+
+#captura, #mensaje{
+  margin: 100px;
+  text-align: center;
+}
+/* Estilos para los párrafos */
+h1{
+text-align: center;
+font-size: 30px;
+margin: 10px 15px 10px 15px;
+}
+
+h2{
+text-align: center;
+font-size: 26px;
+margin: 7px 15px 7px 15px;
+}
+
+p{
+text-align: center;
+justify-content: center;
+font-size: 22px;
+margin: 5px 15px 5px 15px;
+}
+
+body{
+  margin:0
+}
+
+/*Estilos para los botones*/
+#comprar1{
+background-color:purple;
+color:white;
+padding: 5px 15px 5px 15px;
+margin: 1px 15px 1px 15px;
+width: 150px;
+justify-content: center;
+display: inline-block;
+text-align: center;
+font-size: 20px;
+}
+
+#comprar2{
+background-color:purple;
+color:white;
+padding: 5px 15px 5px 15px;
+margin: 1px 15px 1px 15px;
+width:150px;
+justify-content: center;
+display: inline-block;
+text-align: center;
+font-size: 20px;
+}
+
+#tarjeta{
+background-color:purple;
+color:white;
+padding: 5px 15px 5px 15px;
+margin: 5px 15px 5px 15px;
+width: 150px;
+justify-content: center;
+display: inline-block;
+text-align: center;
+font-size: 20px;
+}
+
+#continuar{
+background-color:purple;
+color:white;
+padding: 5px 15px 5px 15px;
+margin: 5px 15px 5px 15px;
+width: 150px;
+justify-content: center;
+display: inline-block;
+text-align: center;
+font-size: 20px;
+}
+
+/*Estilo para el placeholder*/
+#tarjetacredito{
+padding:5px 15px 5px 15px;
+margin:auto;
+width: 150px;
+justify-content: center;
+display: inline-block;
+text-align: center;
+font-size: 20px;
+}
+
+#heading{
+background: #fff748
+}
+
+#banner{
+display:block;
+width: 150px;
+margin: auto;
+}
+
+
+/* Estilo para una caja que encierra cada item a la venta. Esto incluye la foto, el texto con el precio y el botón comprar */  
+#producto{
+display: inline-block;
+justify-content: center;
+text-align: center;
+margin: 1px 100px 1px 100px;
+}
+
+#camisa{
+display: inline-block;
+justify-content: center;
+text-align: center;
+height: 200px;
+margin: auto;
+}
+
+#vaso{
+display: inline-block;
+justify-content: center;
+text-align: center;
+height: 150px;
+margin: auto;
+}
+
+/* Estilos para los logos del footer */
+#instagram{
+width: 25px;
+display:inline-block;
+padding:20px 20px;
+margin:auto;
+}
+
+#twitter{
+width: 30px;
+display:inline-block;
+padding:20px 20px;
+margin:auto;
+}
+
+#facebook{
+width: 30px;
+display:inline-block;
+padding:20px 20px;
+margin:auto;
+}
+
+.footer-copy-redes {
+width:100%;
+background: #000;
+}
+
+.main-copy-redes {
+width: 98%;
+max-width:1000px;
+padding: 15 px 0;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+-ms-align-items: center;
+align-items: center;
+}
+
+.footer-copy{
+width:70%;
+color: #fff;
+}
+
+.footer-redes{
+width: 30%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+#mujercompu{
+  width: 200px;
+  display: inline-block;
+  margin: 20px;
+}
