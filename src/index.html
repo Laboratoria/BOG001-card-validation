@@ -1,24 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Laboratoria Shop</title>
+      <link rel="stylesheet" href="style.css" />
+      <script src="index.js" type="module"></script>
+    </head>
+  
+    <body>
+      <header>
+        <section id="heading">
+          <img src="imagenes/LABORATORIA SHOP.png" id="banner"/>
+        </section>
+      </header>
 
-  </head>
-  <body>
-<!--Miniformulario para pedir el número de tarjeta de crédito-->
-<label for="text"> Número de su TDC: </label>
-<input type="text" id="numtdc" maxlength=16 pattern=/[0-9]/ name="numtdc"/> </text>
+    <main>
+      <section id ="catalogo">
+        <h1>¡Bienvenidos a la Tienda de la Comunidad Laboratoria!</h1>
+        <h2>1.Selecciona lo que deseas comprar</h2>
+          <span id="producto">
+            <img src="imagenes/camisa1.png" id="camisa">
+            <p>$ 30.000</p><button name="Comprar1" id="comprar1">Comprar</button>
+         </span>
+         <span id="producto">
+            <img src="imagenes/Vaso.png" id="vaso">
+            <p>$ 15.000</p><button name="Comprar2" id="comprar2">Comprar</button>
+         </span>
+      </section>
 
-<!--Creación del botón-->
-<button name="enviar" id="botonenviar" onclick="Almacenar();"> Validar </button>
+      <section id="formulario">
+        <div id="captura">
+        <h2>2.Ingresa tu tarjeta de crédito</h2>
+        <form>
+          <label for="tarjetacredito"></label>
+          <input type="number" id="tarjetacredito" placeholder="Pon tu numero aqui" name="numerotarjeta"/>
+          <button type="button" id="tarjeta">Validar</button>
+        </form>
+        </div>
+      </section>
+      
+      <section id="resultado">
+        <h2 id=mensaje></h2><a href ="index.html"><button name="Continuar1" id="continuar">Continuar</button></a>
+      </section>
+        
+      <img src= "imagenes/mujercompu.jpg" id="mujercompu"> 
 
-<script type= "text/javascript" src="C:\Users\USER\Desktop\blanca\laboratoria\BOG001-card-validation\src\index.js"></script> <!--Llamando a JS-->
-
-<!--almacenar en un array cada caracter, usando el comando charAt(index). Usando un ciclo FOR que iría desde 15 hasta cero en forma decreciente, incorporando elemntos del string que están indicados por el índice (index)
-
-  </body><!--Fin del body-->
-
+    </main>
+    
+    <footer>
+      <div class= "footer-copy-redes">
+        <div class= "main-copy-redes">
+          <div class= "footer-copy">
+            &copy;2020, Todos los derechos reservados - |Laboratoria|
+          </div>
+          <div class= "footer-redes">
+            <img src="imagenes/instagram1.png" id="instagram">
+            <img src="imagenes/twitter.png" id="twitter">
+            <img src="imagenes/facebook.png" id="facebook">
+           </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
