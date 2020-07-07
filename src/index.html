@@ -1,14 +1,62 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!-- Nos sirve para que se adapte a otros dispositivos nuestra app -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+<!-- Agregamos el nombre principal de nuestra página -->
+        <div class="titulo">
+           <img src="log.jpg"> <h1><strong>BANCA VIRTUAL</strong></h1>
+           <div class="aviso">
+            <h4 class="titulo2"> <strong>AVISO IMPORTANTE</strong> </h4>
+    <p> <em>Para <span style="color:deepskyblue">FUTURE BANK</span> nuestros clientes son primero,
+        por lo que le informamos que debido al  <span style="color:deepskyblue;">Coronavirus (Covid 19)</span> 
+        nuestra banca virtual como prevención de la clonación de su TDC y
+        para evitar posibles estafas o fraudes le ofrece a nuestros
+        tarjetahabientes la posibilidad de <span style="color: deepskyblue;">validar su Tarjeta De Crédito</span> 
+        sin ningún costo, sólo por tiempo limitado. Para acceder al beneficio,
+        por favor diligencie el formulario que encuentra a continuación.
+        Esperamos tenga un buen día.</em></p>
+        </div>
+        </div>
+       
+    </header>
+    <main>
+<!-- Comenzamos creando nuestro formulario tipo TDC-->
+<!-- CONTENEDOR (caja): Elemento padre que contiene los items flexibles y adaptables -->
+<div class="caja">
+    <!-- Primera parte de la tarjeta -->
+    <section class="tdc">
+<!-- Pusimos el logo del banco y decoramos con un chip de tarjeta-->
+<div class="logo-banco"><img src="log.jpg" alt=""></div>
+<div class="chip"><img src="chip.png" alt=""></div>
+   
+<!-- FORMULARIO-->
+<form action="" id="formulario-tdc" class="formulario-tdc">
+    <div class="datos">
+        <label for="nombre">NOMBRE</label>
+        <input type="text" id="nombre" required ><br>
+        <label for="numeroTarjeta">NÚMERO TARJETA CRÉDITO</label>
+        <input type="text" id="creditCardNumber" required><br>
+    </div>
+    <!-- Creamos en botón para enviar los datos -->
+    <div>
+        <button type="button" class="caja-btn" id="validarBoton">VALIDAR</button><br>
+    </div>
+</form>
+
+     </section>
+</div>
+    </main>
+
+    <footer class="foot" ><h2><strong><em>By: Yury Carreño & Angela Castro</em></strong></h2></footer>
     <script src="index.js" type="module"></script>
-  </body>
+
+</body>
 </html>

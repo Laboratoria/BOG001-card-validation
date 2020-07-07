@@ -1,0 +1,117 @@
+/* Recordaremos que el * es un selector universal que usamos para afectar a todos los elementos */
+*{
+    /* padding (relleno):se utilizan para generar espacio alrededor del contenido de un elemento, dentro de cualquier borde definido*/
+        padding: 0%; 
+    /* margin (margen): se usa para crear espacio alrededor de elementos, fuera de cualquier borde definido. */
+        margin: 0%;
+    /* box-sizing (tamaño de cuadro): permite incluir el relleno y el borde en el ancho y alto total de un elemento.*/
+        box-sizing: border-box;
+    }
+    body{
+    /* background-image (imagen de fondo): establece imágenes de fondo en un elemento */
+        background-image: url(https://aaronsummers.files.wordpress.com/2011/04/pastel_plasma_colors.jpg);
+    /* font-family (familia de fuentes): especifica la fuente para un elemento */
+        font-family: fantasy;
+    }
+    /* Dimos las características al HEADER */
+    .titulo{
+        text-align: center;
+        color: rgb(33, 191, 253);
+        text-shadow: darkgrey;
+        font-size: 300%;
+        background-color: white;
+        overflow: auto;
+    }
+    .titulo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        max-width: 200px;
+        float: left;
+    }
+    .aviso{
+        text-align: left;
+        color:rgb(40, 114, 226);
+        background-color: white;
+        font-size: 30%;
+        padding: 9px 20px 9px 9px;
+    }
+    /* Trabajamos el MAIN */ 
+    .caja{
+    /* width (ancho): establece el ancho de un elemento */
+        width: 90%;
+        max-width: 1000px;
+        padding: 40px 20px;
+        margin: auto;
+    /* display (ancho): establece el ancho de un elemento */
+        display: flex;
+    /* flex-direction (ancho): establece el ancho de un elemento */
+        flex-direction: column;
+        align-items: center;
+    }
+    .tdc{
+        width: 100%;
+        max-width: 550px;
+        padding: 30px;
+        position: relative;
+        color: white;
+        border-radius: 15px;
+        min-height: 315px;
+        background-image:url(https://wallpapersmug.com/large/e24db9/mountains-clouds-landscape-art.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0px 10px 10px 0px rgb(33, 191, 253);
+        z-index: 2;
+    }
+    .logo-banco img{
+        float: right;
+        width: 100%;
+        height: 100%;
+        min-height: 40px;
+        object-fit: cover;
+        max-width: 50px;
+    }
+    .chip img{
+        width: 100%;
+        height: 100%;
+        max-width: 50px;
+        margin-bottom: 20px;
+    }
+    /* FORMULARIO */
+    .formulario-tdc{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .datos, .nombre, .creditCardNumber{
+    font-size: 20px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    margin-top: 20px;
+    }
+    
+    /* BOTON */
+    .caja-btn{
+        width: 100px;
+        height: 70;
+        font-size: 20px;
+        line-height: 25px;
+        background: rgb(33, 191, 253);
+        color: white;
+        position: static;
+        top: -25px;
+        z-index: 3;
+        border-radius: 100%;
+        box-shadow: -5px 4px 8px rgb(33, 191, 253);
+        padding: 5px;
+        float: right;
+        cursor: pointer;
+    }
+    /* Esta parte son las características del FOOTER */
+    .foot{
+        text-align: center;
+        padding: 3px;
+        background-color: DarkSalmon;
+        color: white;
+      }
