@@ -20,7 +20,7 @@ creditCardNumber.addEventListener("keyup",(e)=> {// keyup para que realice funci
 });
 
 //console.log(tarjeta);
-function validar(){
+const validar = () => {
    let numeroTarjeta = document.getElementById('creditCardNumber').value;
    //console.log('hola'); //lo usamos para probar el boton
    if (numeroTarjeta === '') {
@@ -32,7 +32,7 @@ function validar(){
          alert('Estimado usuario su Tarjeta de Crédito es VALIDA');
       } else{
          document.getElementById("creditCardNumber");
-         alert('Estimado usuario su Tarjeta de Crédito es  NO VALIDA');
+         textcontent('Estimado usuario su Tarjeta de Crédito es  NO VALIDA');
       }
    }
    let numeroEnmascarado = validator.maskify(numeroTarjeta);
