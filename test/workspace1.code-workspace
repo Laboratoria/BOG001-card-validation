@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "..\\src"
+		},
+		{
+			"path": "..\\.git"
+		},
+		{
+			"path": "..\\.vscode"
+		},
+		{
+			"path": "..\\node_modules"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

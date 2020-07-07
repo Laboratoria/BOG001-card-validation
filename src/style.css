@@ -1,42 +1,54 @@
 /*Inicialmente la sección catálogo está visible, y las secciones restantes están ocultas. Posteriormente, con una función mostrar de JS, desaparece la sección catálogo y aparece la sección formulario. Luego, con una función similar aparece la sección resultados y posteriormente la sección volver*/
-*{Font-family: "Agency-FB";
-}
+*{font-family:"Agency FB"}
 
-#catalogo{width: 800px;
+#catalogo{
+text-align: center;  
+width: 800px;
 height: 300px;
-margin: auto}
-
-.hidden{
-  display:none;
+margin: auto;
+display: block;
 }
 
-#formulario, #resultado, #volver{width: 400px;
-height: 150px;
+#formulario, #resultado{
+text-align: center; 
+width: 800px;
+height: 300px;
 font-size: 26px;
-margin: auto}
+margin: auto;
+display: none;
+}
 
+#captura, #mensaje{
+  margin: 100px;
+  text-align: center;
+}
 /* Estilos para los párrafos */
-h1{display: block;
+h1{
 text-align: center;
-font-family: "Agency FB";
 font-size: 30px;
-margin: 10px 15px 10px 15px}
+margin: 10px 15px 10px 15px;
+}
 
-h2{display: block;
+h2{
 text-align: center;
-font-family: "Agency FB";
 font-size: 26px;
-margin: 7px 15px 7px 15px}
+margin: 7px 15px 7px 15px;
+}
 
-p{display: block;
+p{
 text-align: center;
 justify-content: center;
-font-family: "Agency FB";
 font-size: 22px;
-margin: 5px 15px 5px 15px}
+margin: 5px 15px 5px 15px;
+}
+
+body{
+  margin:0
+}
 
 /*Estilos para los botones*/
-#comprar1{background-color:purple;
+#comprar1{
+background-color:purple;
 color:white;
 padding: 5px 15px 5px 15px;
 margin: 1px 15px 1px 15px;
@@ -44,10 +56,11 @@ width: 150px;
 justify-content: center;
 display: inline-block;
 text-align: center;
-font-family: "Agency FB";
-font-size: 20px}
+font-size: 20px;
+}
 
-#comprar2{background-color:purple;
+#comprar2{
+background-color:purple;
 color:white;
 padding: 5px 15px 5px 15px;
 margin: 1px 15px 1px 15px;
@@ -55,10 +68,11 @@ width:150px;
 justify-content: center;
 display: inline-block;
 text-align: center;
-font-family: "Agency FB";
-font-size: 20px}
+font-size: 20px;
+}
 
-#tarjeta{background-color:purple;
+#tarjeta{
+background-color:purple;
 color:white;
 padding: 5px 15px 5px 15px;
 margin: 5px 15px 5px 15px;
@@ -66,10 +80,11 @@ width: 150px;
 justify-content: center;
 display: inline-block;
 text-align: center;
-font-family: "Agency FB";
-font-size: 20px}
+font-size: 20px;
+}
 
-#siguiente{background-color:purple;
+#continuar{
+background-color:purple;
 color:white;
 padding: 5px 15px 5px 15px;
 margin: 5px 15px 5px 15px;
@@ -77,63 +92,84 @@ width: 150px;
 justify-content: center;
 display: inline-block;
 text-align: center;
-font-family: "Agency FB";
-font-size: 20px}
+font-size: 20px;
+}
 
 /*Estilo para el placeholder*/
-#tarjetacredito{padding:5px 15px 5px 15px;
+#tarjetacredito{
+padding:5px 15px 5px 15px;
 margin:auto;
 width: 150px;
 justify-content: center;
 display: inline-block;
 text-align: center;
-font-family: "Agency FB";
-font-size: 20px}
+font-size: 20px;
+}
 
-#heading{background: #fff748}
+#heading{
+background: #fff748
+}
 
-#banner{display:block;
+#banner{
+display:block;
 width: 150px;
-margin: auto}
+margin: auto;
+}
+
 
 /* Estilo para una caja que encierra cada item a la venta. Esto incluye la foto, el texto con el precio y el botón comprar */  
-#producto{display: inline-block;
+#producto{
+display: inline-block;
 justify-content: center;
 text-align: center;
-margin: 1px 100px 1px 100px}
+margin: 1px 100px 1px 100px;
+}
 
-#camisa{display: inline-block;
+#camisa{
+display: inline-block;
 justify-content: center;
 text-align: center;
-height: 180px;
-margin: auto}
+height: 200px;
+margin: auto;
+}
 
-#vaso{display: inline-block;
+#vaso{
+display: inline-block;
 justify-content: center;
 text-align: center;
-height: 100px;
-margin: auto}
+height: 150px;
+margin: auto;
+}
 
 /* Estilos para los logos del footer */
-#instagram{width: 25px;
+#instagram{
+width: 25px;
 display:inline-block;
 padding:20px 20px;
-margin:auto}
+margin:auto;
+}
 
-#twitter{width: 30px;
+#twitter{
+width: 30px;
 display:inline-block;
 padding:20px 20px;
-margin:auto}
+margin:auto;
+}
 
-#facebook{width: 30px;
+#facebook{
+width: 30px;
 display:inline-block;
 padding:20px 20px;
-margin:auto}
+margin:auto;
+}
 
-.footer-copy-redes {width:100%;
-background: #000}
+.footer-copy-redes {
+width:100%;
+background: #000;
+}
 
-.main-copy-redes {width: 98%;
+.main-copy-redes {
+width: 98%;
 max-width:1000px;
 padding: 15 px 0;
 margin: auto;
@@ -141,16 +177,23 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 -ms-align-items: center;
-align-items: center}
+align-items: center;
+}
 
-.footer-copy{width:70%;
-color: #fff}
+.footer-copy{
+width:70%;
+color: #fff;
+}
 
-.footer-redes{width: 30%;
+.footer-redes{
+width: 30%;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between}
+justify-content: space-between;
+}
 
-#mujercompu{width: 100px;
+#mujercompu{
+  width: 200px;
   display: inline-block;
-  margin: 20px}
+  margin: 20px;
+}
