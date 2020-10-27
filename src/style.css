@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  min-height: 14.25vh;
+}
+
+.cv-logo{
+  margin-top: 6.5vh;
+  margin-left: 4vh;
+}
+
+.onboarding{
+  min-height: 85.75vh;
+}
+
+.container-img{
+  height: 40vh;
+}
+
+.cv-img{
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.info-container{
+  min-height: ;
+}
+
+.h1-cv{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 9vh;
+}
+
+.p-cv{
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #484848;
+  width: 258px;
+  display: block;
+  margin: auto;
+  margin-top: 4vh;
+}
+
+.btn-action{
+  background-color: #A059C9;
+  height: 52px;
+  width: 145px;
+  border-radius: 52px;
+  border: none;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 22px;
+  padding-left: 32px;
+  margin-top: 10vh;
+  margin-left: 52vw;
+}
+
+footer{
+  height: 5vh;
+  background-color: #DA98FB;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+.p-footer{
+  text-align: center;
+}
